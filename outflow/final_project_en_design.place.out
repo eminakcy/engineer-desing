@@ -1,0 +1,195 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2021.1.165 
+Compiled: Jun 25 2021.
+
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T8F81" ...
+
+***** Beginning stage netlist pre-processing ... *****
+Successfully Read in Verific binary Netlist dump file "C:/Users/user/Desktop/son_final proje/final_project_en_design.vdb".
+***** Beginning VDB Netlist Checker ... *****
+VDB Netlist Checker took 0.0011066 seconds.
+	VDB Netlist Checker took 0 seconds (approximately) in total CPU time.
+VDB Netlist Checker virtual memory usage: begin = 10.876 MB, end = 10.876 MB, delta = 0 MB
+	VDB Netlist Checker peak virtual memory usage = 78.392 MB
+VDB Netlist Checker resident set memory usage: begin = 19.476 MB, end = 19.688 MB, delta = 0.212 MB
+	VDB Netlist Checker peak resident set memory usage = 58.108 MB
+***** Ending VDB Netlist Checker ... *****
+Reading core interface constraints from 'C:/Users/user/Desktop/son_final proje/outflow/final_project_en_design.interface.csv'.
+Successfully processed interface constraints file "C:/Users/user/Desktop/son_final proje/outflow/final_project_en_design.interface.csv".
+Found 0 constant generator nets.
+Pass 0: Swept away 0 nets with no fanout.
+logical_block #3(echo[2]) has no fanout.
+Removing input.
+logical_block #4(echo[1]) has no fanout.
+Removing input.
+logical_block #5(echo[0]) has no fanout.
+Removing input.
+Pass 0: Swept away 3 blocks with no fanout.
+Pass 1: Swept away 0 nets with no fanout.
+Pass 1: Swept away 0 blocks with no fanout.
+Swept away 0 nets and 3 blocks in total.
+Removed 0 LUT buffers.
+Sweeped away 3 nodes.
+Successfully created VPR logical netlist from Verific binary DataBase file "C:/Users/user/Desktop/son_final proje/final_project_en_design.vdb".
+Netlist pre-processing took 0.0070868 seconds.
+	Netlist pre-processing took 0 seconds (approximately) in total CPU time.
+Netlist pre-processing virtual memory usage: begin = 10.764 MB, end = 11.004 MB, delta = 0.24 MB
+	Netlist pre-processing peak virtual memory usage = 78.392 MB
+Netlist pre-processing resident set memory usage: begin = 19.192 MB, end = 20.144 MB, delta = 0.952 MB
+	Netlist pre-processing peak resident set memory usage = 58.108 MB
+***** Ending stage netlist pre-processing *****
+***** Beginning stage pre-packing ... *****
+***** Ending stage pre-packing *****
+***** Beginning stage packing ... *****
+Generate proto netlist for file "C:/Users/user/Desktop/son_final proje/work_pnr\final_project_en_design.net_proto" took 0.001 seconds
+Creating IO constraints file 'C:/Users/user/Desktop/son_final proje/work_pnr\final_project_en_design.io_place'
+Packing took 0.0020854 seconds.
+	Packing took 0 seconds (approximately) in total CPU time.
+Packing virtual memory usage: begin = 14.76 MB, end = 14.872 MB, delta = 0.112 MB
+	Packing peak virtual memory usage = 78.392 MB
+Packing resident set memory usage: begin = 23.84 MB, end = 24.184 MB, delta = 0.344 MB
+	Packing peak resident set memory usage = 58.108 MB
+***** Ending stage packing *****
+***** Beginning stage packed netlist loading ... *****
+Read proto netlist file C:/Users/user/Desktop/son_final proje/work_pnr\final_project_en_design.net_proto
+Read proto netlist for file "C:/Users/user/Desktop/son_final proje/work_pnr\final_project_en_design.net_proto" took 0 seconds
+Setup net and block data structure took 0.003 seconds
+Packed netlist loading took 0.0175075 seconds.
+	Packed netlist loading took 0 seconds (approximately) in total CPU time.
+Packed netlist loading virtual memory usage: begin = 14.872 MB, end = 15.944 MB, delta = 1.072 MB
+	Packed netlist loading peak virtual memory usage = 78.392 MB
+Packed netlist loading resident set memory usage: begin = 24.192 MB, end = 25.364 MB, delta = 1.172 MB
+	Packed netlist loading peak resident set memory usage = 64.404 MB
+***** Ending stage packed netlist loading *****
+***** Beginning stage pre-placement ... *****
+
+***** Ending stage pre-placement *****
+
+No SDC file found.  Using default timing constraint of 1 ns.
+NOTE:  Use --sdc_file <SDC_FILE> to override this behavior.
+
+***** Beginning stage initial placement ... *****
+Reading core interface constraints from 'C:/Users/user/Desktop/son_final proje/outflow/final_project_en_design.interface.csv'.
+Successfully processed interface constraints file "C:/Users/user/Desktop/son_final proje/outflow/final_project_en_design.interface.csv".
+Writing IO placement constraints to 'C:/Users/user/Desktop/son_final proje/outflow\final_project_en_design.interface.io'.
+
+Reading placement constraints from 'C:/Users/user/Desktop/son_final proje/outflow\final_project_en_design.interface.io'.
+
+Reading placement constraints from 'C:/Users/user/Desktop/son_final proje/work_pnr\final_project_en_design.io_place'.
+WARNING(1): Clock driver fpgaclk should use the dedicated clock pad.
+***** Ending stage initial placement *****
+***** Beginning stage placement ... *****
+NumRegions 1
+Starting Global Placer ...
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL Worst Slack (ps) Convergence
+ ----------     -------  --------------     -------
+          1         381           -2910        12.5%
+          2         262           -2910        20.3%
+          3         236           -2730        27.5%
+          4         203           -2730        36.7%
+          5         250           -2730        39.4%
+          6         241           -2851        45.4%
+          7         280           -4306        49.8%
+          8         217           -4167        59.3%
+          9         231           -4199        59.3%
+         10         242           -7265        61.7%
+         11         264           -7559        62.7%
+         12         263           -7818        62.7%
+         13         270           -9253        63.9%
+         14         243           -8464        69.5%
+         15         259           -8829        69.5%
+         16         246           -8178        71.4%
+         17         299           -8876        75.8%
+         18         294          -11738        75.8%
+         19         283          -11846        75.8%
+         20         281          -10607        75.8%
+         21         269          -11672        76.5%
+         22         272          -10590        77.0%
+         23         279          -11502        77.2%
+         24         285          -11994        78.8%
+         25         285          -11781        78.9%
+         26         279          -11781        81.8%
+         27         282          -11650        81.9%
+         28         279          -11752        83.0%
+         29         282          -11430        83.3%
+Starting Annealer
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps)     R Limit
+ ----------     -------  --------------     -------
+          0         299           13103        30.0
+          1         331           16310        30.0
+          2         336           14255        30.0
+          3         336           12787        30.0
+          4         321           12307        30.0
+          5         317           12020        29.1
+          6         300           11894        28.0
+          7         283           13246        26.5
+          8         270           11643        25.0
+          9         271           11130        24.1
+         10         270           11567        23.0
+         11         254           11021        21.7
+         12         275           11993        20.7
+         13         264           11071        19.6
+         14         266           11095        18.6
+         15         263           12905        17.6
+         16         257           11469        16.7
+         17         264           11475        15.7
+         18         255           13036        15.2
+         19         236           11078        14.4
+         20         237           11517        13.6
+         21         235           10961        12.9
+         22         242           10917        12.3
+         23         234           12599        11.6
+         24         225           11211        11.0
+         25         230           11734        10.4
+         26         249           11463        10.0
+         27         249           11697         9.6
+         28         254           11090         9.2
+         29         248           10792         8.9
+         30         244           10888         8.6
+         31         247           11211         8.2
+         32         249           11478         8.0
+         33         259           11132         7.7
+         34         253           10463         7.5
+         35         250           11209         7.3
+         36         246           11994         7.0
+         37         257           11131         6.9
+         38         251           12707         6.7
+         39         223           11161         6.5
+         40         228           10935         6.3
+         41         234           10803         6.1
+         42         231           10689         6.0
+         43         229           10689         5.7
+         44         234           10689         5.5
+         45         223           11118         5.4
+         46         223           10680         5.2
+         47         224           11516         4.9
+Placement successful: 74 cells are placed
+Peak congestion smeared over 1/4 of the chip is 0.0329884 at 0,77
+Congestion-weighted HPWL per net: 2.05307
+
+Reading placement constraints from 'C:/Users/user/Desktop/son_final proje/outflow/final_project_en_design.qplace'.
+Finished Realigning Types (19 blocks needed type change)
+
+Completed placement consistency check successfully.
+
+Placement estimated critical path delay: 11.376 ns
+Successfully created FPGA place file 'C:/Users/user/Desktop/son_final proje/outflow/final_project_en_design.place'
+Placement took 1.97491 seconds.
+	Placement took 2.25 seconds (approximately) in total CPU time.
+Placement virtual memory usage: begin = 15.944 MB, end = 25.816 MB, delta = 9.872 MB
+	Placement peak virtual memory usage = 78.392 MB
+Placement resident set memory usage: begin = 25.372 MB, end = 33.012 MB, delta = 7.64 MB
+	Placement peak resident set memory usage = 72.764 MB
+***** Ending stage placement *****

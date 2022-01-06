@@ -2,44 +2,42 @@
 
 
 module robot(
-input fpgaclk,
+
+input fpgaclk,rst,en,
 input [2:0] echo,
 output [2:0] trigger,led,
-output reg motor_L_forward,motor_R_forward,
-motor_L_backward,motor_R_backward
+output wire [3:0] sig_out_R,sig_out_L
 );
+reg motor_L_dir,motor_R_dir;
 wire [2:0] ultrasonic;
 wire     pwm_1,pwm_2;
 reg forward,backward,turn_left,turn_right;
 reg [15:0] duty_1,duty_2;
 pwm pwm(.clock_50(fpgaclk),.duty(duty_1),.pwm(pwm_1));
 three_ultrasonic three_ultrasonic(.fpgaclk(fpgaclk),.pulse(echo),.triggerout(trigger),.ultrasonic_out(ultrasonic));
-
+step_motor motor_r (.clk(fpgaclk),.rst(rst),.direction(motor_R_dir),.en(en),.signal_out(sig_out_R));
+step_motor motor_l (.clk(fpgaclk),.rst(rst),.direction(motor_L_dir),.en(en),.signal_out(sig_out_L));
 always @(forward || backward || turn_left || turn_right) 
     begin 
     if (forward  ==1)begin
-        motor_R_forward = pwm_1; 
-        motor_L_forward = pwm_2; 
-        motor_L_backward = 0; 
-        motor_R_backward = 0; 
+        motor_R_dir = 1; 
+        motor_L_dir = 1; 
+     
     end
     else if (backward == 1)begin
-        motor_R_forward = pwm_2; 
-        motor_L_forward = pwm_1; 
-        motor_L_backward = 0; 
-        motor_R_backward = 0;   
+        motor_R_dir = 0; 
+        motor_L_dir = 0; 
+         
     end
     else if (turn_right == 1)begin
-        motor_R_forward = pwm_2; 
-        motor_L_forward = pwm_1; 
-        motor_L_backward = 0; 
-        motor_R_backward = 0;   
+        motor_R_dir = 0; 
+        motor_L_dir = 1; 
+       
     end
     else if (turn_left == 1)begin
-        motor_R_forward = pwm_2; 
-        motor_L_forward = pwm_1; 
-        motor_L_backward = 0; 
-        motor_R_backward = 0;   
+        motor_R_dir = 1; 
+        motor_L_dir = 0; 
+       
     end    
 end
 always @ (posedge fpgaclk)begin

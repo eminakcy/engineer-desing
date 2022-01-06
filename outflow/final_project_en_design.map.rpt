@@ -1,0 +1,233 @@
+Synthesis report for project final_project_en_design
+Generated at: Jan 06, 2022 18:41:21
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+
+Top-level Entity Name : robot
+### ### File List (begin) ### ### ###
+C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\robot.v
+C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v
+C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\ultrasonic.v
+C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v
+C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v
+C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v
+C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\clkdiv.v
+C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\Stepper_Motor_Full_Step\pmod_step_interface.v
+C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\Stepper_Motor_Full_Step\pmod_step_driver.v
+C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\Stepper_Motor_Full_Step\clock_div.v
+### ### File List (end) ### ### ###
+
+### ### Pre-optimizations and mapping (begin) ### ### ###
+
+Mapping success.
+### ### Mapping (end) ### ### ###
+
+### ### Post-optimizations and re-synthesis (begin) ### ### ###
+
+Post-optimizations and re-synthesis success.
+### ### Post-optimizations and re-synthesis (end) ### ### ###
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 2
+Enable signal <led[0]>, number of controlling flip flops: 40
+Enable signal <n280>, number of controlling flip flops: 2
+### ### EFX FF CE enables (end) ### ### ###
+
+### ### Sequential Elements Trimming Report (begin) ### ### ### 
+FF Output: three_ultrasonic/ultrasonic_left/triggen/outputCounter[9](=1)
+FF Output: three_ultrasonic/ultrasonic_left/triggen/outputCounter[8](=1)
+FF Output: three_ultrasonic/ultrasonic_left/triggen/outputCounter[7](=1)
+FF Output: three_ultrasonic/ultrasonic_left/triggen/outputCounter[6](=1)
+FF Output: three_ultrasonic/ultrasonic_left/triggen/outputCounter[5](=1)
+FF Output: three_ultrasonic/ultrasonic_left/triggen/outputCounter[4](=1)
+FF Output: three_ultrasonic/ultrasonic_left/triggen/outputCounter[3](=1)
+FF Output: three_ultrasonic/ultrasonic_left/triggen/outputCounter[2](=1)
+FF Output: three_ultrasonic/ultrasonic_left/triggen/outputCounter[1](=1)
+FF Output: three_ultrasonic/ultrasonic_left/triggen/outputCounter[0](=1)
+FF Output: three_ultrasonic/ultrasonic_left/triggen/outputCounter[10](=1)
+FF Output: three_ultrasonic/ultrasonic_middle/triggen/outputCounter[1](=1)
+FF Output: three_ultrasonic/ultrasonic_middle/triggen/outputCounter[0](=1)
+FF Output: three_ultrasonic/ultrasonic_middle/triggen/outputCounter[2](=1)
+FF Output: three_ultrasonic/ultrasonic_middle/triggen/outputCounter[19](=1)
+FF Output: three_ultrasonic/ultrasonic_middle/triggen/outputCounter[18](=1)
+FF Output: three_ultrasonic/ultrasonic_middle/triggen/outputCounter[17](=1)
+FF Output: three_ultrasonic/ultrasonic_middle/triggen/outputCounter[16](=1)
+FF Output: three_ultrasonic/ultrasonic_middle/triggen/outputCounter[15](=1)
+FF Output: three_ultrasonic/ultrasonic_middle/triggen/outputCounter[14](=1)
+FF Output: three_ultrasonic/ultrasonic_middle/triggen/outputCounter[13](=1)
+FF Output: three_ultrasonic/ultrasonic_middle/triggen/outputCounter[12](=1)
+FF Output: three_ultrasonic/ultrasonic_middle/triggen/outputCounter[11](=1)
+FF Output: three_ultrasonic/ultrasonic_middle/triggen/outputCounter[10](=1)
+FF Output: three_ultrasonic/ultrasonic_middle/triggen/outputCounter[9](=1)
+FF Output: three_ultrasonic/ultrasonic_middle/triggen/outputCounter[8](=1)
+FF Output: three_ultrasonic/ultrasonic_middle/triggen/outputCounter[7](=1)
+FF Output: three_ultrasonic/ultrasonic_middle/triggen/outputCounter[6](=1)
+FF Output: three_ultrasonic/ultrasonic_middle/triggen/outputCounter[5](=1)
+FF Output: three_ultrasonic/ultrasonic_middle/triggen/outputCounter[4](=1)
+FF Output: three_ultrasonic/ultrasonic_middle/triggen/outputCounter[3](=1)
+FF Output: three_ultrasonic/ultrasonic_middle/triggen/outputCounter[20](=1)
+FF Output: three_ultrasonic/ultrasonic_right/triggen/outputCounter[1](=1)
+FF Output: three_ultrasonic/ultrasonic_right/triggen/outputCounter[0](=1)
+FF Output: three_ultrasonic/ultrasonic_right/triggen/outputCounter[2](=1)
+FF Output: three_ultrasonic/ultrasonic_right/triggen/outputCounter[19](=1)
+FF Output: three_ultrasonic/ultrasonic_right/triggen/outputCounter[18](=1)
+FF Output: three_ultrasonic/ultrasonic_right/triggen/outputCounter[17](=1)
+FF Output: three_ultrasonic/ultrasonic_right/triggen/outputCounter[16](=1)
+FF Output: three_ultrasonic/ultrasonic_right/triggen/outputCounter[15](=1)
+FF Output: three_ultrasonic/ultrasonic_right/triggen/outputCounter[14](=1)
+FF Output: three_ultrasonic/ultrasonic_right/triggen/outputCounter[13](=1)
+FF Output: three_ultrasonic/ultrasonic_right/triggen/outputCounter[12](=1)
+FF Output: three_ultrasonic/ultrasonic_right/triggen/outputCounter[11](=1)
+FF Output: three_ultrasonic/ultrasonic_right/triggen/outputCounter[10](=1)
+FF Output: three_ultrasonic/ultrasonic_right/triggen/outputCounter[9](=1)
+FF Output: three_ultrasonic/ultrasonic_right/triggen/outputCounter[8](=1)
+FF Output: three_ultrasonic/ultrasonic_right/triggen/outputCounter[7](=1)
+FF Output: three_ultrasonic/ultrasonic_right/triggen/outputCounter[6](=1)
+FF Output: three_ultrasonic/ultrasonic_right/triggen/outputCounter[5](=1)
+FF Output: three_ultrasonic/ultrasonic_right/triggen/outputCounter[4](=1)
+FF Output: three_ultrasonic/ultrasonic_right/triggen/outputCounter[3](=1)
+FF Output: three_ultrasonic/ultrasonic_right/triggen/outputCounter[20](=1)
+FF Output: three_ultrasonic/ultrasonic_left/triggen/outputCounter[11](=1)
+FF Output: three_ultrasonic/ultrasonic_middle/triggen/outputCounter[21](=1)
+FF Output: three_ultrasonic/ultrasonic_right/triggen/outputCounter[21](=1)
+FF Output: three_ultrasonic/ultrasonic_left/triggen/outputCounter[19](=1)
+FF Output: three_ultrasonic/ultrasonic_left/triggen/outputCounter[18](=1)
+FF Output: three_ultrasonic/ultrasonic_left/triggen/outputCounter[17](=1)
+FF Output: three_ultrasonic/ultrasonic_left/triggen/outputCounter[16](=1)
+FF Output: three_ultrasonic/ultrasonic_left/triggen/outputCounter[15](=1)
+FF Output: three_ultrasonic/ultrasonic_left/triggen/outputCounter[14](=1)
+FF Output: three_ultrasonic/ultrasonic_left/triggen/outputCounter[13](=1)
+FF Output: three_ultrasonic/ultrasonic_left/triggen/outputCounter[12](=1)
+FF Output: three_ultrasonic/ultrasonic_left/triggen/outputCounter[20](=1)
+FF Output: three_ultrasonic/ultrasonic_left/triggen/outputCounter[21](=1)
+FF instance: three_ultrasonic/ultrasonic_left/counter/three_ultrasonic/ultrasonic_left/pulse_width[0]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_left/counter/three_ultrasonic/ultrasonic_left/pulse_width[1]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_left/counter/three_ultrasonic/ultrasonic_left/pulse_width[2]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_left/counter/three_ultrasonic/ultrasonic_left/pulse_width[3]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_left/counter/three_ultrasonic/ultrasonic_left/pulse_width[4]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_left/counter/three_ultrasonic/ultrasonic_left/pulse_width[5]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_left/counter/three_ultrasonic/ultrasonic_left/pulse_width[6]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_left/counter/three_ultrasonic/ultrasonic_left/pulse_width[7]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_left/counter/three_ultrasonic/ultrasonic_left/pulse_width[8]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_left/counter/three_ultrasonic/ultrasonic_left/pulse_width[9]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_left/counter/three_ultrasonic/ultrasonic_left/pulse_width[10]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_left/counter/three_ultrasonic/ultrasonic_left/pulse_width[11]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_left/counter/three_ultrasonic/ultrasonic_left/pulse_width[12]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_left/counter/three_ultrasonic/ultrasonic_left/pulse_width[13]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_left/counter/three_ultrasonic/ultrasonic_left/pulse_width[14]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_left/counter/three_ultrasonic/ultrasonic_left/pulse_width[15]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_left/counter/three_ultrasonic/ultrasonic_left/pulse_width[16]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_left/counter/three_ultrasonic/ultrasonic_left/pulse_width[17]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_left/counter/three_ultrasonic/ultrasonic_left/pulse_width[18]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_left/counter/three_ultrasonic/ultrasonic_left/pulse_width[19]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_left/counter/three_ultrasonic/ultrasonic_left/pulse_width[20]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_left/counter/three_ultrasonic/ultrasonic_left/pulse_width[21]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_middle/counter/three_ultrasonic/ultrasonic_middle/pulse_width[0]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_middle/counter/three_ultrasonic/ultrasonic_middle/pulse_width[1]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_middle/counter/three_ultrasonic/ultrasonic_middle/pulse_width[2]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_middle/counter/three_ultrasonic/ultrasonic_middle/pulse_width[3]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_middle/counter/three_ultrasonic/ultrasonic_middle/pulse_width[4]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_middle/counter/three_ultrasonic/ultrasonic_middle/pulse_width[5]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_middle/counter/three_ultrasonic/ultrasonic_middle/pulse_width[6]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_middle/counter/three_ultrasonic/ultrasonic_middle/pulse_width[7]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_middle/counter/three_ultrasonic/ultrasonic_middle/pulse_width[8]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_middle/counter/three_ultrasonic/ultrasonic_middle/pulse_width[9]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_middle/counter/three_ultrasonic/ultrasonic_middle/pulse_width[10]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_middle/counter/three_ultrasonic/ultrasonic_middle/pulse_width[11]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_middle/counter/three_ultrasonic/ultrasonic_middle/pulse_width[12]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_middle/counter/three_ultrasonic/ultrasonic_middle/pulse_width[13]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_middle/counter/three_ultrasonic/ultrasonic_middle/pulse_width[14]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_middle/counter/three_ultrasonic/ultrasonic_middle/pulse_width[15]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_middle/counter/three_ultrasonic/ultrasonic_middle/pulse_width[16]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_middle/counter/three_ultrasonic/ultrasonic_middle/pulse_width[17]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_middle/counter/three_ultrasonic/ultrasonic_middle/pulse_width[18]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_middle/counter/three_ultrasonic/ultrasonic_middle/pulse_width[19]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_middle/counter/three_ultrasonic/ultrasonic_middle/pulse_width[20]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_middle/counter/three_ultrasonic/ultrasonic_middle/pulse_width[21]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_right/counter/three_ultrasonic/ultrasonic_right/pulse_width[0]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_right/counter/three_ultrasonic/ultrasonic_right/pulse_width[1]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_right/counter/three_ultrasonic/ultrasonic_right/pulse_width[2]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_right/counter/three_ultrasonic/ultrasonic_right/pulse_width[3]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_right/counter/three_ultrasonic/ultrasonic_right/pulse_width[4]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_right/counter/three_ultrasonic/ultrasonic_right/pulse_width[5]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_right/counter/three_ultrasonic/ultrasonic_right/pulse_width[6]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_right/counter/three_ultrasonic/ultrasonic_right/pulse_width[7]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_right/counter/three_ultrasonic/ultrasonic_right/pulse_width[8]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_right/counter/three_ultrasonic/ultrasonic_right/pulse_width[9]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_right/counter/three_ultrasonic/ultrasonic_right/pulse_width[10]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_right/counter/three_ultrasonic/ultrasonic_right/pulse_width[11]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_right/counter/three_ultrasonic/ultrasonic_right/pulse_width[12]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_right/counter/three_ultrasonic/ultrasonic_right/pulse_width[13]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_right/counter/three_ultrasonic/ultrasonic_right/pulse_width[14]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_right/counter/three_ultrasonic/ultrasonic_right/pulse_width[15]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_right/counter/three_ultrasonic/ultrasonic_right/pulse_width[16]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_right/counter/three_ultrasonic/ultrasonic_right/pulse_width[17]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_right/counter/three_ultrasonic/ultrasonic_right/pulse_width[18]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_right/counter/three_ultrasonic/ultrasonic_right/pulse_width[19]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_right/counter/three_ultrasonic/ultrasonic_right/pulse_width[20]~FF(unreachable)
+FF instance: three_ultrasonic/ultrasonic_right/counter/three_ultrasonic/ultrasonic_right/pulse_width[21]~FF(unreachable)
+FF instance: motor_l/speed/count[0]~FF(unreachable)
+### ### Sequential Elements Trimming Report (end) ### ### ### 
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                                      FFs        ADDs        LUTs      RAMs DSP/MULTs
+-----------------------------------         ---        ----        ----      ---- ---------
+robot:robot                               42(0)        0(0)       68(0)      0(0)      0(0)
++motor_r:step_motor                       34(0)        0(0)       59(0)      0(0)      0(0)
+ +speed:motor_speed                      27(27)        0(0)      50(50)      0(0)      0(0)
+ +control:pmod_step_driver                 7(7)        0(0)        9(9)      0(0)      0(0)
++motor_l:step_motor                        8(0)        0(0)        9(0)      0(0)      0(0)
+ +speed:motor_speed                        1(1)        0(0)        0(0)      0(0)      0(0)
+ +control:pmod_step_driver                 7(7)        0(0)        9(9)      0(0)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+               Clock     Flip-Flops   Memory Ports    Multipliers
+               -----     ----------   ------------    -----------
+             fpgaclk             28              0              0
+ motor_r/new_clk_net              7              0              0
+ motor_l/new_clk_net              7              0              0
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### EFX Flow Options (begin) ### ### ###
+
+family : Trion
+device : T8F81
+project : final_project_en_design
+project-xml : C:/Users/user/Desktop/son_final proje/final_project_en_design.xml
+root : robot
+I : C:/Users/user/Desktop/son_final proje
+output-dir : C:/Users/user/Desktop/son_final proje/outflow
+work-dir : C:/Users/user/Desktop/son_final proje/work_syn
+write-efx-verilog : C:/Users/user/Desktop/son_final proje/outflow/final_project_en_design.map.v
+binary-db : C:/Users/user/Desktop/son_final proje/final_project_en_design.vdb
+insert-ios : 0
+max-carry-cascade : 160
+max_mult : -1
+max_ram : -1
+mode : speed
+veri_options : verilog_mode=verilog_2k,vhdl_mode=vhdl_2008
+
+### ### EFX Flow Options (end) ### ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	6
+OUTPUT PORTS    : 	14
+
+EFX_LUT4        : 	68
+   1-2  Inputs  : 	14
+   3    Inputs  : 	32
+   4    Inputs  : 	22
+EFX_FF          : 	42
+EFX_GBUFCE      : 	3
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 1s
+Elapsed synthesis time : 1s

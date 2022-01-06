@@ -1,0 +1,23 @@
+
+Efinix FPGA Bitstream Generator.
+Version: 2021.1.165 
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+
+Compiled: Jun 25 2021.
+
+Using source file "C:/Users/user/Desktop/son_final proje/work_pnr/final_project_en_design.lbf"
+Generating HEX programming file for device "T8F81", family "Trion"
+Using periphery source file "C:/Users/user/Desktop/son_final proje/outflow/final_project_en_design.lpf"
+Generating bit file: "C:/Users/user/Desktop/son_final proje/outflow/final_project_en_design.bit"
+HEX Generation Options Summary:
+	Listing options specified to bitstream generation:
+	spi_low_power_mode                       = on
+	oscillator_clock_divider                 = DIV8
+	io_weak_pullup                           = on
+Finished generating "C:/Users/user/Desktop/son_final proje/outflow/final_project_en_design.hex"
+Efinity Bitstream Generator took 2.55506 seconds.
+	Efinity Bitstream Generator took 1.34375 seconds (approximately) in total CPU time.
+Efinity Bitstream Generator virtual memory usage: begin = 2.472 MB, end = 5.136 MB, delta = 2.664 MB
+	Efinity Bitstream Generator peak virtual memory usage = 75.712 MB
+Efinity Bitstream Generator resident set memory usage: begin = 7 MB, end = 11.464 MB, delta = 4.464 MB
+	Efinity Bitstream Generator peak resident set memory usage = 20.784 MB

@@ -1,0 +1,503 @@
+
+Efinix Static Timing Analysis Report
+Version: 2021.1.165 
+Date: Thu Jan 06 18:41:38 2022
+
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+ 
+Top-level Entity Name: final_project_en_design
+
+SDC Filename: Not Specified
+
+Timing Model: C2
+	temperature : 0C to 85C
+	voltage : 1.1V +/-50mV
+	speedgrade : 2
+	technology : s40ll
+	status : final
+
+---------- Table of Contents (begin) ----------
+   1. Clock Frequency Summary 
+   2. Clock Relationship Summary 
+   3. Path Details for Max Critical Paths 
+   4. Path Details for Min Critical Paths 
+---------- Table of Contents (end) ------------
+
+---------- 1. Clock Frequency Summary (begin) ----------
+
+User target constrained clocks
+Clock Name             Period (ns)   Frequency (MHz)   Waveform   Source Clock Name
+fpgaclk                      1.000        1000.000         {0.000 0.500}        fpgaclk
+motor_r/new_clk_net          1.000        1000.000         {0.000 0.500}        motor_r/new_clk_net
+motor_l/new_clk_net          1.000        1000.000         {0.000 0.500}        motor_l/new_clk_net
+virtual_io_clock             1.000        1000.000         {0.000 0.500}        virtual
+
+Maximum possible analyzed clocks frequency
+Clock Name             Period (ns)   Frequency (MHz)   Edge
+fpgaclk                     12.701          78.733     (R-R)
+motor_r/new_clk_net          6.130         163.134     (R-R)
+motor_l/new_clk_net          8.951         111.721     (R-R)
+
+Geomean max period: 8.866
+
+---------- Clock Frequency Summary (end) ---------------
+
+---------- 2. Clock Relationship Summary (begin) ----------
+
+Launch Clock         Capture Clock        Constraint (ns)   Slack (ns)    Edge
+fpgaclk               fpgaclk                    1.000       -11.701     (R-R)
+motor_r/new_clk_net   motor_r/new_clk_net        1.000        -5.130     (R-R)
+motor_l/new_clk_net   motor_l/new_clk_net        1.000        -7.951     (R-R)
+
+NOTE: Values are in nanoseconds.
+
+---------- Clock Relationship Summary (end) ---------------
+
+---------- 3. Path Details for Max Critical Paths (begin) ----------
+
+
+######################################################################
+Path Detail Report (fpgaclk vs fpgaclk)
+######################################################################
+
+
+++++ Path 1 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Path Begin    : motor_r/speed/count[0]~FF|CLK
+Path End      : motor_r/speed/count[11]~FF|D
+Launch Clock  : fpgaclk (RISE)
+Capture Clock : fpgaclk (RISE)
+Slack         : -11.701  (required time - arrival time)
+Delay         : 11.527
+
+Logic Level : 3
+Non-global nets on path : 3
+Global nets on path     : 0
+
+Launch Clock Path Delay        : 7.006
++ Clock To Q + Data Path Delay : 12.561
+--------------------------------------------
+End-of-path arrival time       : 19.567
+
+Constraint                     : 1.000
++ Capture Clock Path Delay     : 7.006
+- Clock Uncertainty            : 0.140
+--------------------------------------------
+End-of-path required time      : 7.866
+
+
+Launch Clock Path
+pin name                         model name    delay (ns)   cumulative delay (ns)    pins on net   location
+============================================================================================================
+ fpgaclk                          inpad           0.000                  0.000           2          (0,102)
+ fpgaclk                          inpad           0.420                  0.420           2          (0,102)
+ fpgaclk                          io              2.482                  2.902           2          (0,102)
+   Routing elements:  
+     Manhattan distance of X:1, Y:24
+ CLKBUF__0|I[3]                   gbuf_block      0.785                  3.688           2          (1,78)
+ CLKBUF__0|I                      gbuf            3.318                  7.006           2          (1,78)
+ CLKBUF__0|O                      gbuf            0.000                  7.006          29          (1,78)
+ CLKBUF__0|clkout                 gbuf_block      0.000                  7.006          29          (1,78)
+ motor_r/speed/count[0]~FF|CLK    ff              0.000                  7.006          29          (7,77)
+
+Data Path
+pin name                            model name    delay (ns)   cumulative delay (ns)    pins on net   location
+===============================================================================================================
+ motor_r/speed/count[0]~FF|Q         ff               0.650                  0.650           7          (7,77)
+ motor_r/speed/count[0]~FF|O_seq     eft              2.978                  3.629           7          (7,77)
+   Routing elements:  
+     Manhattan distance of X:2, Y:12
+ LUT__648|I[2]                       eft              0.400                  4.029           7          (5,65)
+ LUT__648|in[2]                      lut              0.000                  4.029           7          (5,65)
+ LUT__648|out                        lut              0.000                  4.029           2          (5,65)
+ LUT__648|O                          eft              3.635                  7.663           2          (5,65)
+   Routing elements:  
+     Manhattan distance of X:0, Y:18
+ LUT__654|I[0]                       eft              0.642                  8.305           2          (5,83)
+ LUT__654|in[0]                      lut              0.000                  8.305           2          (5,83)
+ LUT__654|out                        lut              0.000                  8.305          12          (5,83)
+ LUT__654|O                          eft              3.613                 11.918          12          (5,83)
+   Routing elements:  
+     Manhattan distance of X:2, Y:16
+ motor_r/speed/count[11]~FF|I[3]     eft              0.259                 12.177          12          (3,67)
+ LUT__671|in[3]                      lut              0.000                 12.177          12          (3,67)
+ LUT__671|out                        lut              0.000                 12.177           2          (3,67)
+ motor_r/speed/count[11]~FF|D        ff               0.384                 12.561           2          (3,67)
+
+Capture Clock Path
+pin name                          model name    delay (ns)   cumulative delay (ns)    pins on net   location
+=============================================================================================================
+ fpgaclk                           inpad           0.000                  0.000           2          (0,102)
+ fpgaclk                           inpad           0.420                  0.420           2          (0,102)
+ fpgaclk                           io              2.482                  2.902           2          (0,102)
+   Routing elements:  
+     Manhattan distance of X:1, Y:24
+ CLKBUF__0|I[3]                    gbuf_block      0.785                  3.688           2          (1,78)
+ CLKBUF__0|I                       gbuf            3.318                  7.006           2          (1,78)
+ CLKBUF__0|O                       gbuf            0.000                  7.006          29          (1,78)
+ CLKBUF__0|clkout                  gbuf_block      0.000                  7.006          29          (1,78)
+ motor_r/speed/count[11]~FF|CLK    ff              0.000                  7.006          29          (3,67)
+
+######################################################################
+Path Detail Report (motor_r/new_clk_net vs motor_r/new_clk_net)
+######################################################################
+
+
+++++ Path 1 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Path Begin    : motor_r/control/present_state[1]~FF|CLK
+Path End      : motor_r/control/sig_out_R[2]~FF|SR
+Launch Clock  : motor_r/new_clk_net (RISE)
+Capture Clock : motor_r/new_clk_net (RISE)
+Slack         : -5.130  (required time - arrival time)
+Delay         : 4.678
+
+Logic Level : 1
+Non-global nets on path : 2
+Global nets on path     : 0
+
+Launch Clock Path Delay        : 8.305
++ Clock To Q + Data Path Delay : 5.990
+--------------------------------------------
+End-of-path arrival time       : 14.295
+
+Constraint                     : 1.000
++ Capture Clock Path Delay     : 8.305
+- Clock Uncertainty            : 0.140
+--------------------------------------------
+End-of-path required time      : 9.165
+
+
+Launch Clock Path
+pin name                                      model name    delay (ns)   cumulative delay (ns)    pins on net   location
+=========================================================================================================================
+ motor_r/speed/motor_r/new_clk_net~FF|Q        ff              0.650                  0.650           3          (25,83)
+ motor_r/speed/motor_r/new_clk_net~FF|Q        ff              0.000                  0.650           3          (25,83)
+ motor_r/speed/motor_r/new_clk_net~FF|O_seq    eft             3.524                  4.175           3          (25,83)
+   Routing elements:  
+     Manhattan distance of X:24, Y:4
+ CLKBUF__1|I[2]                                gbuf_block      0.812                  4.987           3          (1,79)
+ CLKBUF__1|I                                   gbuf            3.318                  8.305           3          (1,79)
+ CLKBUF__1|O                                   gbuf            0.000                  8.305           8          (1,79)
+ CLKBUF__1|clkout                              gbuf_block      0.000                  8.305           8          (1,79)
+ motor_r/control/present_state[1]~FF|CLK       ff              0.000                  8.305           8          (37,80)
+
+Data Path
+pin name                                     model name    delay (ns)   cumulative delay (ns)    pins on net   location
+========================================================================================================================
+ motor_r/control/present_state[1]~FF|Q        ff               0.650                  0.650           9          (37,80)
+ motor_r/control/present_state[1]~FF|O_seq    eft              2.606                  3.256           9          (37,80)
+   Routing elements:  
+     Manhattan distance of X:2, Y:5
+ LUT__697|I[0]                                eft              0.642                  3.898           9          (39,85)
+ LUT__697|in[0]                               lut              0.000                  3.898           9          (39,85)
+ LUT__697|out                                 lut              0.000                  3.898           3          (39,85)
+ LUT__697|O                                   eft              1.430                  5.328           3          (39,85)
+   Routing elements:  
+     Manhattan distance of X:0, Y:1
+ motor_r/control/sig_out_R[2]~FF|SR           ff               0.662                  5.990           3          (39,86)
+
+Capture Clock Path
+pin name                                      model name    delay (ns)   cumulative delay (ns)    pins on net   location
+=========================================================================================================================
+ motor_r/speed/motor_r/new_clk_net~FF|Q        ff              0.650                  0.650           3          (25,83)
+ motor_r/speed/motor_r/new_clk_net~FF|Q        ff              0.000                  0.650           3          (25,83)
+ motor_r/speed/motor_r/new_clk_net~FF|O_seq    eft             3.524                  4.175           3          (25,83)
+   Routing elements:  
+     Manhattan distance of X:24, Y:4
+ CLKBUF__1|I[2]                                gbuf_block      0.812                  4.987           3          (1,79)
+ CLKBUF__1|I                                   gbuf            3.318                  8.305           3          (1,79)
+ CLKBUF__1|O                                   gbuf            0.000                  8.305           8          (1,79)
+ CLKBUF__1|clkout                              gbuf_block      0.000                  8.305           8          (1,79)
+ motor_r/control/sig_out_R[2]~FF|CLK           ff              0.000                  8.305           8          (39,86)
+
+######################################################################
+Path Detail Report (motor_l/new_clk_net vs motor_l/new_clk_net)
+######################################################################
+
+
+++++ Path 1 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Path Begin    : motor_l/control/present_state[0]~FF|CLK
+Path End      : motor_l/control/sig_out_L[2]~FF|SR
+Launch Clock  : motor_l/new_clk_net (RISE)
+Capture Clock : motor_l/new_clk_net (RISE)
+Slack         : -7.951  (required time - arrival time)
+Delay         : 7.499
+
+Logic Level : 2
+Non-global nets on path : 3
+Global nets on path     : 0
+
+Launch Clock Path Delay        : 7.538
++ Clock To Q + Data Path Delay : 8.811
+--------------------------------------------
+End-of-path arrival time       : 16.349
+
+Constraint                     : 1.000
++ Capture Clock Path Delay     : 7.538
+- Clock Uncertainty            : 0.140
+--------------------------------------------
+End-of-path required time      : 8.398
+
+
+Launch Clock Path
+pin name                                      model name    delay (ns)   cumulative delay (ns)    pins on net   location
+=========================================================================================================================
+ motor_l/speed/motor_l/new_clk_net~FF|Q        ff              0.650                  0.650           3          (9,83)
+ motor_l/speed/motor_l/new_clk_net~FF|Q        ff              0.000                  0.650           3          (9,83)
+ motor_l/speed/motor_l/new_clk_net~FF|O_seq    eft             2.747                  3.398           3          (9,83)
+   Routing elements:  
+     Manhattan distance of X:8, Y:3
+ CLKBUF__2|I[0]                                gbuf_block      0.822                  4.220           3          (1,80)
+ CLKBUF__2|I                                   gbuf            3.318                  7.538           3          (1,80)
+ CLKBUF__2|O                                   gbuf            0.000                  7.538           8          (1,80)
+ CLKBUF__2|clkout                              gbuf_block      0.000                  7.538           8          (1,80)
+ motor_l/control/present_state[0]~FF|CLK       ff              0.000                  7.538           8          (39,69)
+
+Data Path
+pin name                                     model name    delay (ns)   cumulative delay (ns)    pins on net   location
+========================================================================================================================
+ motor_l/control/present_state[0]~FF|Q        ff               0.650                  0.650           6          (39,69)
+ motor_l/control/present_state[0]~FF|O_seq    eft              2.355                  3.005           6          (39,69)
+   Routing elements:  
+     Manhattan distance of X:1, Y:3
+ LUT__706|I[2]                                efl              0.396                  3.400           6          (38,72)
+ LUT__706|in[2]                               lut              0.000                  3.401           6          (38,72)
+ LUT__706|out                                 lut              0.000                  3.401           4          (38,72)
+ LUT__706|O                                   efl              1.031                  4.431           4          (38,72)
+   Routing elements:  
+     Manhattan distance of X:1, Y:0
+ LUT__707|I[0]                                eft              0.642                  5.073           4          (37,72)
+ LUT__707|in[0]                               lut              0.000                  5.073           4          (37,72)
+ LUT__707|out                                 lut              0.000                  5.073           3          (37,72)
+ LUT__707|O                                   eft              3.076                  8.149           3          (37,72)
+   Routing elements:  
+     Manhattan distance of X:0, Y:1
+ motor_l/control/sig_out_L[2]~FF|SR           ff               0.662                  8.811           3          (37,73)
+
+Capture Clock Path
+pin name                                      model name    delay (ns)   cumulative delay (ns)    pins on net   location
+=========================================================================================================================
+ motor_l/speed/motor_l/new_clk_net~FF|Q        ff              0.650                  0.650           3          (9,83)
+ motor_l/speed/motor_l/new_clk_net~FF|Q        ff              0.000                  0.650           3          (9,83)
+ motor_l/speed/motor_l/new_clk_net~FF|O_seq    eft             2.747                  3.398           3          (9,83)
+   Routing elements:  
+     Manhattan distance of X:8, Y:3
+ CLKBUF__2|I[0]                                gbuf_block      0.822                  4.220           3          (1,80)
+ CLKBUF__2|I                                   gbuf            3.318                  7.538           3          (1,80)
+ CLKBUF__2|O                                   gbuf            0.000                  7.538           8          (1,80)
+ CLKBUF__2|clkout                              gbuf_block      0.000                  7.538           8          (1,80)
+ motor_l/control/sig_out_L[2]~FF|CLK           ff              0.000                  7.538           8          (37,73)
+
+---------- Path Details for Max Critical Paths (end) ---------------
+
+---------- 4. Path Details for Min Critical Paths (begin) ----------
+
+
+######################################################################
+Path Detail Report (fpgaclk vs fpgaclk)
+######################################################################
+
+
+++++ Path 1 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Path Begin    : motor_r/speed/count[1]~FF|CLK
+Path End      : motor_r/speed/count[1]~FF|D
+Launch Clock  : fpgaclk (RISE)
+Capture Clock : fpgaclk (RISE)
+Slack         : 0.642  (arrival time - required time)
+Delay         : 0.460
+
+Logic Level : 1
+Non-global nets on path : 1
+Global nets on path     : 0
+
+Launch Clock Path Delay        : 2.502
++ Clock To Q + Data Path Delay : 0.692
+--------------------------------------------
+End-of-path arrival time       : 3.194
+
+Constraint                     : 0.000
++ Capture Clock Path Delay     : 2.502
++ Clock Uncertainty            : 0.050
+--------------------------------------------
+End-of-path required time      : 2.552
+
+
+Launch Clock Path
+pin name                         model name    delay (ns)   cumulative delay (ns)    pins on net   location
+============================================================================================================
+ fpgaclk                          inpad           0.000                  0.000           2          (0,102)
+ fpgaclk                          inpad           0.150                  0.150           2          (0,102)
+ fpgaclk                          io              0.887                  1.036           2          (0,102)
+   Routing elements:  
+     Manhattan distance of X:1, Y:24
+ CLKBUF__0|I[3]                   gbuf_block      0.281                  1.317           2          (1,78)
+ CLKBUF__0|I                      gbuf            1.185                  2.502           2          (1,78)
+ CLKBUF__0|O                      gbuf            0.000                  2.502          29          (1,78)
+ CLKBUF__0|clkout                 gbuf_block      0.000                  2.502          29          (1,78)
+ motor_r/speed/count[1]~FF|CLK    ff              0.000                  2.502          29          (3,77)
+
+Data Path
+pin name                           model name    delay (ns)   cumulative delay (ns)    pins on net   location
+==============================================================================================================
+ motor_r/speed/count[1]~FF|Q        ff               0.232                  0.232           6          (3,77)
+ motor_r/speed/count[1]~FF|O_seq    eft              0.367                  0.599           6          (3,77)
+ motor_r/speed/count[1]~FF|I[3]     eft              0.093                  0.692           6          (3,77)
+ LUT__656|in[3]                     lut              0.000                  0.692           6          (3,77)
+ LUT__656|out                       lut              0.000                  0.692           2          (3,77)
+
+Capture Clock Path
+pin name                         model name    delay (ns)   cumulative delay (ns)    pins on net   location
+============================================================================================================
+ fpgaclk                          inpad           0.000                  0.000           2          (0,102)
+ fpgaclk                          inpad           0.150                  0.150           2          (0,102)
+ fpgaclk                          io              0.887                  1.036           2          (0,102)
+   Routing elements:  
+     Manhattan distance of X:1, Y:24
+ CLKBUF__0|I[3]                   gbuf_block      0.281                  1.317           2          (1,78)
+ CLKBUF__0|I                      gbuf            1.185                  2.502           2          (1,78)
+ CLKBUF__0|O                      gbuf            0.000                  2.502          29          (1,78)
+ CLKBUF__0|clkout                 gbuf_block      0.000                  2.502          29          (1,78)
+ motor_r/speed/count[1]~FF|CLK    ff              0.000                  2.502          29          (3,77)
+
+######################################################################
+Path Detail Report (motor_r/new_clk_net vs motor_r/new_clk_net)
+######################################################################
+
+
+++++ Path 1 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Path Begin    : motor_r/control/present_state[1]~FF|CLK
+Path End      : motor_r/control/present_state[0]~FF|D
+Launch Clock  : motor_r/new_clk_net (RISE)
+Capture Clock : motor_r/new_clk_net (RISE)
+Slack         : 0.643  (arrival time - required time)
+Delay         : 0.461
+
+Logic Level : 1
+Non-global nets on path : 1
+Global nets on path     : 0
+
+Launch Clock Path Delay        : 2.966
++ Clock To Q + Data Path Delay : 0.693
+--------------------------------------------
+End-of-path arrival time       : 3.659
+
+Constraint                     : 0.000
++ Capture Clock Path Delay     : 2.966
++ Clock Uncertainty            : 0.050
+--------------------------------------------
+End-of-path required time      : 3.016
+
+
+Launch Clock Path
+pin name                                      model name    delay (ns)   cumulative delay (ns)    pins on net   location
+=========================================================================================================================
+ motor_r/speed/motor_r/new_clk_net~FF|Q        ff              0.232                  0.232           3          (25,83)
+ motor_r/speed/motor_r/new_clk_net~FF|Q        ff              0.000                  0.232           3          (25,83)
+ motor_r/speed/motor_r/new_clk_net~FF|O_seq    eft             1.259                  1.491           3          (25,83)
+   Routing elements:  
+     Manhattan distance of X:24, Y:4
+ CLKBUF__1|I[2]                                gbuf_block      0.290                  1.781           3          (1,79)
+ CLKBUF__1|I                                   gbuf            1.185                  2.966           3          (1,79)
+ CLKBUF__1|O                                   gbuf            0.000                  2.966           8          (1,79)
+ CLKBUF__1|clkout                              gbuf_block      0.000                  2.966           8          (1,79)
+ motor_r/control/present_state[1]~FF|CLK       ff              0.000                  2.966           8          (37,80)
+
+Data Path
+pin name                                     model name    delay (ns)   cumulative delay (ns)    pins on net   location
+========================================================================================================================
+ motor_r/control/present_state[1]~FF|Q        ff               0.232                  0.232           9          (37,80)
+ motor_r/control/present_state[1]~FF|O_seq    eft              0.368                  0.600           9          (37,80)
+   Routing elements:  
+     Manhattan distance of X:2, Y:0
+ motor_r/control/present_state[0]~FF|I[3]     eft              0.093                  0.693           9          (39,80)
+ LUT__702|in[3]                               lut              0.000                  0.693           9          (39,80)
+ LUT__702|out                                 lut              0.000                  0.693           2          (39,80)
+
+Capture Clock Path
+pin name                                      model name    delay (ns)   cumulative delay (ns)    pins on net   location
+=========================================================================================================================
+ motor_r/speed/motor_r/new_clk_net~FF|Q        ff              0.232                  0.232           3          (25,83)
+ motor_r/speed/motor_r/new_clk_net~FF|Q        ff              0.000                  0.232           3          (25,83)
+ motor_r/speed/motor_r/new_clk_net~FF|O_seq    eft             1.259                  1.491           3          (25,83)
+   Routing elements:  
+     Manhattan distance of X:24, Y:4
+ CLKBUF__1|I[2]                                gbuf_block      0.290                  1.781           3          (1,79)
+ CLKBUF__1|I                                   gbuf            1.185                  2.966           3          (1,79)
+ CLKBUF__1|O                                   gbuf            0.000                  2.966           8          (1,79)
+ CLKBUF__1|clkout                              gbuf_block      0.000                  2.966           8          (1,79)
+ motor_r/control/present_state[0]~FF|CLK       ff              0.000                  2.966           8          (39,80)
+
+######################################################################
+Path Detail Report (motor_l/new_clk_net vs motor_l/new_clk_net)
+######################################################################
+
+
+++++ Path 1 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Path Begin    : motor_l/control/present_state[0]~FF|CLK
+Path End      : motor_l/control/sig_out_L[0]~FF|D
+Launch Clock  : motor_l/new_clk_net (RISE)
+Capture Clock : motor_l/new_clk_net (RISE)
+Slack         : 0.643  (arrival time - required time)
+Delay         : 0.461
+
+Logic Level : 1
+Non-global nets on path : 1
+Global nets on path     : 0
+
+Launch Clock Path Delay        : 2.692
++ Clock To Q + Data Path Delay : 0.693
+--------------------------------------------
+End-of-path arrival time       : 3.385
+
+Constraint                     : 0.000
++ Capture Clock Path Delay     : 2.692
++ Clock Uncertainty            : 0.050
+--------------------------------------------
+End-of-path required time      : 2.742
+
+
+Launch Clock Path
+pin name                                      model name    delay (ns)   cumulative delay (ns)    pins on net   location
+=========================================================================================================================
+ motor_l/speed/motor_l/new_clk_net~FF|Q        ff              0.232                  0.232           3          (9,83)
+ motor_l/speed/motor_l/new_clk_net~FF|Q        ff              0.000                  0.232           3          (9,83)
+ motor_l/speed/motor_l/new_clk_net~FF|O_seq    eft             0.981                  1.213           3          (9,83)
+   Routing elements:  
+     Manhattan distance of X:8, Y:3
+ CLKBUF__2|I[0]                                gbuf_block      0.294                  1.507           3          (1,80)
+ CLKBUF__2|I                                   gbuf            1.185                  2.692           3          (1,80)
+ CLKBUF__2|O                                   gbuf            0.000                  2.692           8          (1,80)
+ CLKBUF__2|clkout                              gbuf_block      0.000                  2.692           8          (1,80)
+ motor_l/control/present_state[0]~FF|CLK       ff              0.000                  2.692           8          (39,69)
+
+Data Path
+pin name                                     model name    delay (ns)   cumulative delay (ns)    pins on net   location
+========================================================================================================================
+ motor_l/control/present_state[0]~FF|Q        ff               0.232                  0.232           6          (39,69)
+ motor_l/control/present_state[0]~FF|O_seq    eft              0.368                  0.600           6          (39,69)
+   Routing elements:  
+     Manhattan distance of X:0, Y:1
+ motor_l/control/sig_out_L[0]~FF|I[3]         eft              0.093                  0.693           6          (39,68)
+ LUT__709|in[3]                               lut              0.000                  0.693           6          (39,68)
+ LUT__709|out                                 lut              0.000                  0.693           2          (39,68)
+
+Capture Clock Path
+pin name                                      model name    delay (ns)   cumulative delay (ns)    pins on net   location
+=========================================================================================================================
+ motor_l/speed/motor_l/new_clk_net~FF|Q        ff              0.232                  0.232           3          (9,83)
+ motor_l/speed/motor_l/new_clk_net~FF|Q        ff              0.000                  0.232           3          (9,83)
+ motor_l/speed/motor_l/new_clk_net~FF|O_seq    eft             0.981                  1.213           3          (9,83)
+   Routing elements:  
+     Manhattan distance of X:8, Y:3
+ CLKBUF__2|I[0]                                gbuf_block      0.294                  1.507           3          (1,80)
+ CLKBUF__2|I                                   gbuf            1.185                  2.692           3          (1,80)
+ CLKBUF__2|O                                   gbuf            0.000                  2.692           8          (1,80)
+ CLKBUF__2|clkout                              gbuf_block      0.000                  2.692           8          (1,80)
+ motor_l/control/sig_out_L[0]~FF|CLK           ff              0.000                  2.692           8          (39,68)
+
+---------- Path Details for Min Critical Paths (end) ---------------

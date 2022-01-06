@@ -1,0 +1,796 @@
+cell { name: "motor_r/speed/count[0]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_r/speed/motor_r/new_clk_net~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_r/speed/count[1]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_r/speed/count[2]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_r/speed/count[3]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_r/speed/count[4]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_r/speed/count[5]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_r/speed/count[6]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_r/speed/count[7]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_r/speed/count[8]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_r/speed/count[9]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_r/speed/count[10]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_r/speed/count[11]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_r/speed/count[12]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_r/speed/count[13]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_r/speed/count[14]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_r/speed/count[15]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_r/speed/count[16]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_r/speed/count[17]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_r/speed/count[18]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_r/speed/count[19]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_r/speed/count[20]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_r/speed/count[21]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_r/speed/count[22]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_r/speed/count[23]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_r/speed/count[24]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_r/speed/count[25]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_r/control/sig_out_R[3]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_r/control/sig_out_R[2]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_r/control/sig_out_R[0]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_r/control/sig_out_R[1]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_r/control/present_state[0]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_r/control/present_state[1]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_r/control/present_state[2]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_l/speed/motor_l/new_clk_net~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_l/control/sig_out_L[3]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_l/control/sig_out_L[2]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_l/control/sig_out_L[0]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_l/control/sig_out_L[1]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_l/control/present_state[0]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_l/control/present_state[1]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "motor_l/control/present_state[2]~FF" type: "eft" mode: "logic_ff_clk_RISING" }
+cell { name: "fpgaclk" type: "io" mode: "inpad" fixed {x: 0 y: 102 k: 1} }
+cell { name: "rst" type: "io" mode: "inpad" fixed {x: 78 y: 145 k: 1} }
+cell { name: "en" type: "io" mode: "inpad" fixed {x: 78 y: 102 k: 1} }
+cell { name: "trigger[2]" type: "io" mode: "outpad" fixed {x: 78 y: 127 k: 0} }
+cell { name: "trigger[1]" type: "io" mode: "outpad" fixed {x: 78 y: 137 k: 0} }
+cell { name: "trigger[0]" type: "io" mode: "outpad" fixed {x: 78 y: 152 k: 0} }
+cell { name: "led[2]" type: "io" mode: "outpad" fixed {x: 78 y: 100 k: 0} }
+cell { name: "led[1]" type: "io" mode: "outpad" fixed {x: 78 y: 12 k: 0} }
+cell { name: "led[0]" type: "io" mode: "outpad" fixed {x: 0 y: 105 k: 0} }
+cell { name: "sig_out_R[3]" type: "io" mode: "outpad" fixed {x: 0 y: 97 k: 0} }
+cell { name: "sig_out_R[2]" type: "io" mode: "outpad" fixed {x: 0 y: 95 k: 0} }
+cell { name: "sig_out_R[1]" type: "io" mode: "outpad" fixed {x: 0 y: 70 k: 0} }
+cell { name: "sig_out_R[0]" type: "io" mode: "outpad" fixed {x: 0 y: 65 k: 0} }
+cell { name: "sig_out_L[3]" type: "io" mode: "outpad" fixed {x: 0 y: 100 k: 0} }
+cell { name: "sig_out_L[2]" type: "io" mode: "outpad" fixed {x: 0 y: 92 k: 0} }
+cell { name: "sig_out_L[1]" type: "io" mode: "outpad" fixed {x: 0 y: 67 k: 0} }
+cell { name: "sig_out_L[0]" type: "io" mode: "outpad" fixed {x: 0 y: 62 k: 0} }
+cell { name: "VCC" type: "efl" mode: "logic" }
+cell { name: "GND" type: "efl" mode: "logic" }
+cell { name: "LUT__646" type: "efl" mode: "logic" }
+cell { name: "LUT__647" type: "efl" mode: "logic" }
+cell { name: "LUT__648" type: "efl" mode: "logic" }
+cell { name: "LUT__649" type: "efl" mode: "logic" }
+cell { name: "LUT__650" type: "efl" mode: "logic" }
+cell { name: "LUT__651" type: "efl" mode: "logic" }
+cell { name: "LUT__652" type: "efl" mode: "logic" }
+cell { name: "LUT__653" type: "efl" mode: "logic" }
+cell { name: "LUT__654" type: "efl" mode: "logic" }
+cell { name: "LUT__659" type: "efl" mode: "logic" }
+cell { name: "LUT__662" type: "efl" mode: "logic" }
+cell { name: "LUT__665" type: "efl" mode: "logic" }
+cell { name: "LUT__666" type: "efl" mode: "logic" }
+cell { name: "LUT__669" type: "efl" mode: "logic" }
+cell { name: "LUT__673" type: "efl" mode: "logic" }
+cell { name: "LUT__674" type: "efl" mode: "logic" }
+cell { name: "LUT__676" type: "efl" mode: "logic" }
+cell { name: "LUT__679" type: "efl" mode: "logic" }
+cell { name: "LUT__681" type: "efl" mode: "logic" }
+cell { name: "LUT__683" type: "efl" mode: "logic" }
+cell { name: "LUT__684" type: "efl" mode: "logic" }
+cell { name: "LUT__689" type: "efl" mode: "logic" }
+cell { name: "LUT__690" type: "efl" mode: "logic" }
+cell { name: "LUT__694" type: "efl" mode: "logic" }
+cell { name: "LUT__696" type: "efl" mode: "logic" }
+cell { name: "LUT__697" type: "efl" mode: "logic" }
+cell { name: "LUT__700" type: "efl" mode: "logic" }
+cell { name: "LUT__706" type: "efl" mode: "logic" }
+cell { name: "LUT__707" type: "efl" mode: "logic" }
+cell { name: "LUT__710" type: "efl" mode: "logic" }
+cell { name: "CLKBUF__2" type: "gbuf_block" mode: "gbuf_block" fixed {x: 1 y: 80 k: 0} }
+cell { name: "CLKBUF__1" type: "gbuf_block" mode: "gbuf_block" fixed {x: 1 y: 79 k: 0} }
+cell { name: "CLKBUF__0" type: "gbuf_block" mode: "gbuf_block" fixed {x: 1 y: 78 k: 0} }
+net {
+	name: "motor_r/speed/count[0]"
+	terminal	{ cell: "motor_r/speed/count[0]~FF" port: "O_seq" }
+	terminal	{ cell: "motor_r/speed/count[0]~FF" port: "I[0]" }
+	terminal	{ cell: "motor_r/speed/count[1]~FF" port: "I[0]" }
+	terminal	{ cell: "motor_r/speed/count[2]~FF" port: "I[0]" }
+	terminal	{ cell: "motor_r/speed/count[3]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__648" port: "I[0]" }
+	terminal	{ cell: "LUT__659" port: "I[0]" }
+ }
+net {
+	name: "n280"
+	terminal	{ cell: "LUT__654" port: "O" }
+	terminal	{ cell: "motor_r/speed/count[0]~FF" port: "I[1]" }
+	terminal	{ cell: "motor_r/speed/motor_r/new_clk_net~FF" port: "CE" }
+	terminal	{ cell: "motor_r/speed/count[6]~FF" port: "I[2]" }
+	terminal	{ cell: "motor_r/speed/count[8]~FF" port: "I[2]" }
+	terminal	{ cell: "motor_r/speed/count[9]~FF" port: "I[3]" }
+	terminal	{ cell: "motor_r/speed/count[11]~FF" port: "I[3]" }
+	terminal	{ cell: "motor_r/speed/count[14]~FF" port: "I[2]" }
+	terminal	{ cell: "motor_r/speed/count[18]~FF" port: "I[2]" }
+	terminal	{ cell: "motor_r/speed/count[19]~FF" port: "I[3]" }
+	terminal	{ cell: "motor_r/speed/count[22]~FF" port: "I[2]" }
+	terminal	{ cell: "motor_l/speed/motor_l/new_clk_net~FF" port: "CE" }
+ }
+net {
+	name: "vcc"
+	type: CONSTANT
+	terminal	{ cell: "VCC" port: "O" }
+	terminal	{ cell: "motor_r/speed/count[0]~FF" port: "CE" }
+	terminal	{ cell: "motor_r/speed/count[1]~FF" port: "CE" }
+	terminal	{ cell: "motor_r/speed/count[2]~FF" port: "CE" }
+	terminal	{ cell: "motor_r/speed/count[3]~FF" port: "CE" }
+	terminal	{ cell: "motor_r/speed/count[4]~FF" port: "CE" }
+	terminal	{ cell: "motor_r/speed/count[5]~FF" port: "CE" }
+	terminal	{ cell: "motor_r/speed/count[6]~FF" port: "CE" }
+	terminal	{ cell: "motor_r/speed/count[7]~FF" port: "CE" }
+	terminal	{ cell: "motor_r/speed/count[8]~FF" port: "CE" }
+	terminal	{ cell: "motor_r/speed/count[9]~FF" port: "CE" }
+	terminal	{ cell: "motor_r/speed/count[10]~FF" port: "CE" }
+	terminal	{ cell: "motor_r/speed/count[11]~FF" port: "CE" }
+	terminal	{ cell: "motor_r/speed/count[12]~FF" port: "CE" }
+	terminal	{ cell: "motor_r/speed/count[13]~FF" port: "CE" }
+	terminal	{ cell: "motor_r/speed/count[14]~FF" port: "CE" }
+	terminal	{ cell: "motor_r/speed/count[15]~FF" port: "CE" }
+	terminal	{ cell: "motor_r/speed/count[16]~FF" port: "CE" }
+	terminal	{ cell: "motor_r/speed/count[17]~FF" port: "CE" }
+	terminal	{ cell: "motor_r/speed/count[18]~FF" port: "CE" }
+	terminal	{ cell: "motor_r/speed/count[19]~FF" port: "CE" }
+	terminal	{ cell: "motor_r/speed/count[20]~FF" port: "CE" }
+	terminal	{ cell: "motor_r/speed/count[21]~FF" port: "CE" }
+	terminal	{ cell: "motor_r/speed/count[22]~FF" port: "CE" }
+	terminal	{ cell: "motor_r/speed/count[23]~FF" port: "CE" }
+	terminal	{ cell: "motor_r/speed/count[24]~FF" port: "CE" }
+	terminal	{ cell: "motor_r/speed/count[25]~FF" port: "CE" }
+	terminal	{ cell: "motor_r/control/sig_out_R[3]~FF" port: "CE" }
+	terminal	{ cell: "motor_r/control/sig_out_R[2]~FF" port: "CE" }
+	terminal	{ cell: "motor_r/control/sig_out_R[0]~FF" port: "CE" }
+	terminal	{ cell: "motor_r/control/sig_out_R[1]~FF" port: "CE" }
+	terminal	{ cell: "motor_r/control/present_state[0]~FF" port: "CE" }
+	terminal	{ cell: "motor_r/control/present_state[1]~FF" port: "CE" }
+	terminal	{ cell: "motor_r/control/present_state[2]~FF" port: "CE" }
+	terminal	{ cell: "motor_l/control/sig_out_L[3]~FF" port: "CE" }
+	terminal	{ cell: "motor_l/control/sig_out_L[2]~FF" port: "CE" }
+	terminal	{ cell: "motor_l/control/sig_out_L[0]~FF" port: "CE" }
+	terminal	{ cell: "motor_l/control/sig_out_L[1]~FF" port: "CE" }
+	terminal	{ cell: "motor_l/control/present_state[0]~FF" port: "CE" }
+	terminal	{ cell: "motor_l/control/present_state[1]~FF" port: "CE" }
+	terminal	{ cell: "motor_l/control/present_state[2]~FF" port: "CE" }
+	terminal	{ cell: "led[2]" port: "outpad" }
+	terminal	{ cell: "led[1]" port: "outpad" }
+	terminal	{ cell: "led[0]" port: "outpad" }
+	terminal	{ cell: "CLKBUF__2" port: "I[0]" }
+	terminal	{ cell: "CLKBUF__1" port: "I[0]" }
+	terminal	{ cell: "CLKBUF__0" port: "I[0]" }
+ }
+net {
+	name: "rst"
+	terminal	{ cell: "rst" port: "inpad" }
+	terminal	{ cell: "motor_r/speed/count[0]~FF" port: "RE" }
+	terminal	{ cell: "motor_r/speed/motor_r/new_clk_net~FF" port: "RE" }
+	terminal	{ cell: "motor_r/speed/count[1]~FF" port: "RE" }
+	terminal	{ cell: "motor_r/speed/count[2]~FF" port: "RE" }
+	terminal	{ cell: "motor_r/speed/count[3]~FF" port: "RE" }
+	terminal	{ cell: "motor_r/speed/count[4]~FF" port: "RE" }
+	terminal	{ cell: "motor_r/speed/count[5]~FF" port: "RE" }
+	terminal	{ cell: "motor_r/speed/count[6]~FF" port: "RE" }
+	terminal	{ cell: "motor_r/speed/count[7]~FF" port: "RE" }
+	terminal	{ cell: "motor_r/speed/count[8]~FF" port: "RE" }
+	terminal	{ cell: "motor_r/speed/count[9]~FF" port: "RE" }
+	terminal	{ cell: "motor_r/speed/count[10]~FF" port: "RE" }
+	terminal	{ cell: "motor_r/speed/count[11]~FF" port: "RE" }
+	terminal	{ cell: "motor_r/speed/count[12]~FF" port: "RE" }
+	terminal	{ cell: "motor_r/speed/count[13]~FF" port: "RE" }
+	terminal	{ cell: "motor_r/speed/count[14]~FF" port: "RE" }
+	terminal	{ cell: "motor_r/speed/count[15]~FF" port: "RE" }
+	terminal	{ cell: "motor_r/speed/count[16]~FF" port: "RE" }
+	terminal	{ cell: "motor_r/speed/count[17]~FF" port: "RE" }
+	terminal	{ cell: "motor_r/speed/count[18]~FF" port: "RE" }
+	terminal	{ cell: "motor_r/speed/count[19]~FF" port: "RE" }
+	terminal	{ cell: "motor_r/speed/count[20]~FF" port: "RE" }
+	terminal	{ cell: "motor_r/speed/count[21]~FF" port: "RE" }
+	terminal	{ cell: "motor_r/speed/count[22]~FF" port: "RE" }
+	terminal	{ cell: "motor_r/speed/count[23]~FF" port: "RE" }
+	terminal	{ cell: "motor_r/speed/count[24]~FF" port: "RE" }
+	terminal	{ cell: "motor_r/speed/count[25]~FF" port: "RE" }
+	terminal	{ cell: "motor_r/control/present_state[0]~FF" port: "RE" }
+	terminal	{ cell: "motor_r/control/present_state[1]~FF" port: "RE" }
+	terminal	{ cell: "motor_r/control/present_state[2]~FF" port: "RE" }
+	terminal	{ cell: "motor_l/speed/motor_l/new_clk_net~FF" port: "RE" }
+	terminal	{ cell: "motor_l/control/present_state[0]~FF" port: "RE" }
+	terminal	{ cell: "motor_l/control/present_state[1]~FF" port: "RE" }
+	terminal	{ cell: "motor_l/control/present_state[2]~FF" port: "RE" }
+ }
+net {
+	name: "fpgaclk~O"
+	type: GLOBAL_CLOCK
+	gbuf_driven: true
+	terminal	{ cell: "CLKBUF__0" port: "clkout" }
+	terminal	{ cell: "motor_r/speed/count[0]~FF" port: "clk" }
+	terminal	{ cell: "motor_r/speed/motor_r/new_clk_net~FF" port: "clk" }
+	terminal	{ cell: "motor_r/speed/count[1]~FF" port: "clk" }
+	terminal	{ cell: "motor_r/speed/count[2]~FF" port: "clk" }
+	terminal	{ cell: "motor_r/speed/count[3]~FF" port: "clk" }
+	terminal	{ cell: "motor_r/speed/count[4]~FF" port: "clk" }
+	terminal	{ cell: "motor_r/speed/count[5]~FF" port: "clk" }
+	terminal	{ cell: "motor_r/speed/count[6]~FF" port: "clk" }
+	terminal	{ cell: "motor_r/speed/count[7]~FF" port: "clk" }
+	terminal	{ cell: "motor_r/speed/count[8]~FF" port: "clk" }
+	terminal	{ cell: "motor_r/speed/count[9]~FF" port: "clk" }
+	terminal	{ cell: "motor_r/speed/count[10]~FF" port: "clk" }
+	terminal	{ cell: "motor_r/speed/count[11]~FF" port: "clk" }
+	terminal	{ cell: "motor_r/speed/count[12]~FF" port: "clk" }
+	terminal	{ cell: "motor_r/speed/count[13]~FF" port: "clk" }
+	terminal	{ cell: "motor_r/speed/count[14]~FF" port: "clk" }
+	terminal	{ cell: "motor_r/speed/count[15]~FF" port: "clk" }
+	terminal	{ cell: "motor_r/speed/count[16]~FF" port: "clk" }
+	terminal	{ cell: "motor_r/speed/count[17]~FF" port: "clk" }
+	terminal	{ cell: "motor_r/speed/count[18]~FF" port: "clk" }
+	terminal	{ cell: "motor_r/speed/count[19]~FF" port: "clk" }
+	terminal	{ cell: "motor_r/speed/count[20]~FF" port: "clk" }
+	terminal	{ cell: "motor_r/speed/count[21]~FF" port: "clk" }
+	terminal	{ cell: "motor_r/speed/count[22]~FF" port: "clk" }
+	terminal	{ cell: "motor_r/speed/count[23]~FF" port: "clk" }
+	terminal	{ cell: "motor_r/speed/count[24]~FF" port: "clk" }
+	terminal	{ cell: "motor_r/speed/count[25]~FF" port: "clk" }
+	terminal	{ cell: "motor_l/speed/motor_l/new_clk_net~FF" port: "clk" }
+ }
+net {
+	name: "motor_r/new_clk_net"
+	terminal	{ cell: "motor_r/speed/motor_r/new_clk_net~FF" port: "O_seq" }
+	terminal	{ cell: "motor_r/speed/motor_r/new_clk_net~FF" port: "I[1]" }
+	terminal	{ cell: "CLKBUF__1" port: "I[1]" }
+ }
+net {
+	name: "motor_r/speed/count[1]"
+	terminal	{ cell: "motor_r/speed/count[1]~FF" port: "O_seq" }
+	terminal	{ cell: "motor_r/speed/count[1]~FF" port: "I[1]" }
+	terminal	{ cell: "motor_r/speed/count[2]~FF" port: "I[1]" }
+	terminal	{ cell: "motor_r/speed/count[3]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__646" port: "I[0]" }
+	terminal	{ cell: "LUT__659" port: "I[1]" }
+ }
+net {
+	name: "motor_r/speed/count[2]"
+	terminal	{ cell: "motor_r/speed/count[2]~FF" port: "O_seq" }
+	terminal	{ cell: "motor_r/speed/count[2]~FF" port: "I[2]" }
+	terminal	{ cell: "motor_r/speed/count[3]~FF" port: "I[2]" }
+	terminal	{ cell: "LUT__646" port: "I[1]" }
+	terminal	{ cell: "LUT__659" port: "I[2]" }
+ }
+net {
+	name: "motor_r/speed/count[3]"
+	terminal	{ cell: "motor_r/speed/count[3]~FF" port: "O_seq" }
+	terminal	{ cell: "motor_r/speed/count[3]~FF" port: "I[3]" }
+	terminal	{ cell: "LUT__650" port: "I[0]" }
+	terminal	{ cell: "LUT__659" port: "I[3]" }
+ }
+net {
+	name: "motor_r/speed/count[4]"
+	terminal	{ cell: "motor_r/speed/count[4]~FF" port: "O_seq" }
+	terminal	{ cell: "motor_r/speed/count[4]~FF" port: "I[0]" }
+	terminal	{ cell: "motor_r/speed/count[5]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__650" port: "I[1]" }
+	terminal	{ cell: "LUT__662" port: "I[0]" }
+	terminal	{ cell: "LUT__665" port: "I[0]" }
+ }
+net {
+	name: "n391"
+	terminal	{ cell: "LUT__659" port: "O" }
+	terminal	{ cell: "motor_r/speed/count[4]~FF" port: "I[1]" }
+	terminal	{ cell: "motor_r/speed/count[5]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__662" port: "I[2]" }
+	terminal	{ cell: "LUT__666" port: "I[0]" }
+	terminal	{ cell: "LUT__674" port: "I[0]" }
+ }
+net {
+	name: "motor_r/speed/count[5]"
+	terminal	{ cell: "motor_r/speed/count[5]~FF" port: "O_seq" }
+	terminal	{ cell: "motor_r/speed/count[5]~FF" port: "I[2]" }
+	terminal	{ cell: "LUT__650" port: "I[2]" }
+	terminal	{ cell: "LUT__662" port: "I[1]" }
+	terminal	{ cell: "LUT__665" port: "I[1]" }
+ }
+net {
+	name: "motor_r/speed/count[6]"
+	terminal	{ cell: "motor_r/speed/count[6]~FF" port: "O_seq" }
+	terminal	{ cell: "motor_r/speed/count[6]~FF" port: "I[0]" }
+	terminal	{ cell: "motor_r/speed/count[7]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__650" port: "I[3]" }
+	terminal	{ cell: "LUT__665" port: "I[2]" }
+ }
+net {
+	name: "n392"
+	terminal	{ cell: "LUT__662" port: "O" }
+	terminal	{ cell: "motor_r/speed/count[6]~FF" port: "I[1]" }
+	terminal	{ cell: "motor_r/speed/count[7]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__669" port: "I[2]" }
+ }
+net {
+	name: "motor_r/speed/count[7]"
+	terminal	{ cell: "motor_r/speed/count[7]~FF" port: "O_seq" }
+	terminal	{ cell: "motor_r/speed/count[7]~FF" port: "I[2]" }
+	terminal	{ cell: "LUT__652" port: "I[0]" }
+	terminal	{ cell: "LUT__665" port: "I[3]" }
+ }
+net {
+	name: "motor_r/speed/count[8]"
+	terminal	{ cell: "motor_r/speed/count[8]~FF" port: "O_seq" }
+	terminal	{ cell: "motor_r/speed/count[8]~FF" port: "I[0]" }
+	terminal	{ cell: "motor_r/speed/count[9]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__652" port: "I[3]" }
+	terminal	{ cell: "LUT__669" port: "I[0]" }
+	terminal	{ cell: "LUT__673" port: "I[0]" }
+ }
+net {
+	name: "n394"
+	terminal	{ cell: "LUT__666" port: "O" }
+	terminal	{ cell: "motor_r/speed/count[8]~FF" port: "I[1]" }
+	terminal	{ cell: "motor_r/speed/count[9]~FF" port: "I[1]" }
+ }
+net {
+	name: "motor_r/speed/count[9]"
+	terminal	{ cell: "motor_r/speed/count[9]~FF" port: "O_seq" }
+	terminal	{ cell: "motor_r/speed/count[9]~FF" port: "I[2]" }
+	terminal	{ cell: "LUT__652" port: "I[2]" }
+	terminal	{ cell: "LUT__669" port: "I[1]" }
+	terminal	{ cell: "LUT__673" port: "I[1]" }
+ }
+net {
+	name: "motor_r/speed/count[10]"
+	terminal	{ cell: "motor_r/speed/count[10]~FF" port: "O_seq" }
+	terminal	{ cell: "motor_r/speed/count[10]~FF" port: "I[0]" }
+	terminal	{ cell: "motor_r/speed/count[11]~FF" port: "I[0]" }
+	terminal	{ cell: "motor_r/speed/count[12]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__649" port: "I[0]" }
+	terminal	{ cell: "LUT__673" port: "I[2]" }
+ }
+net {
+	name: "n395"
+	terminal	{ cell: "LUT__669" port: "O" }
+	terminal	{ cell: "motor_r/speed/count[10]~FF" port: "I[1]" }
+	terminal	{ cell: "motor_r/speed/count[11]~FF" port: "I[1]" }
+	terminal	{ cell: "motor_r/speed/count[12]~FF" port: "I[2]" }
+ }
+net {
+	name: "motor_r/speed/count[11]"
+	terminal	{ cell: "motor_r/speed/count[11]~FF" port: "O_seq" }
+	terminal	{ cell: "motor_r/speed/count[11]~FF" port: "I[2]" }
+	terminal	{ cell: "motor_r/speed/count[12]~FF" port: "I[1]" }
+	terminal	{ cell: "motor_r/speed/count[13]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__649" port: "I[2]" }
+	terminal	{ cell: "LUT__676" port: "I[0]" }
+	terminal	{ cell: "LUT__683" port: "I[0]" }
+ }
+net {
+	name: "motor_r/speed/count[12]"
+	terminal	{ cell: "motor_r/speed/count[12]~FF" port: "O_seq" }
+	terminal	{ cell: "motor_r/speed/count[12]~FF" port: "I[3]" }
+	terminal	{ cell: "LUT__649" port: "I[1]" }
+	terminal	{ cell: "LUT__673" port: "I[3]" }
+ }
+net {
+	name: "n397"
+	terminal	{ cell: "LUT__674" port: "O" }
+	terminal	{ cell: "motor_r/speed/count[13]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__676" port: "I[2]" }
+	terminal	{ cell: "LUT__684" port: "I[0]" }
+	terminal	{ cell: "LUT__690" port: "I[0]" }
+ }
+net {
+	name: "motor_r/speed/count[13]"
+	terminal	{ cell: "motor_r/speed/count[13]~FF" port: "O_seq" }
+	terminal	{ cell: "motor_r/speed/count[13]~FF" port: "I[2]" }
+	terminal	{ cell: "LUT__652" port: "I[1]" }
+	terminal	{ cell: "LUT__676" port: "I[1]" }
+	terminal	{ cell: "LUT__683" port: "I[1]" }
+ }
+net {
+	name: "motor_r/speed/count[14]"
+	terminal	{ cell: "motor_r/speed/count[14]~FF" port: "O_seq" }
+	terminal	{ cell: "motor_r/speed/count[14]~FF" port: "I[0]" }
+	terminal	{ cell: "motor_r/speed/count[15]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__649" port: "I[3]" }
+	terminal	{ cell: "LUT__679" port: "I[0]" }
+	terminal	{ cell: "LUT__681" port: "I[0]" }
+ }
+net {
+	name: "n398"
+	terminal	{ cell: "LUT__676" port: "O" }
+	terminal	{ cell: "motor_r/speed/count[14]~FF" port: "I[1]" }
+	terminal	{ cell: "motor_r/speed/count[15]~FF" port: "I[1]" }
+	terminal	{ cell: "motor_r/speed/count[16]~FF" port: "I[0]" }
+	terminal	{ cell: "motor_r/speed/count[17]~FF" port: "I[0]" }
+ }
+net {
+	name: "motor_r/speed/count[15]"
+	terminal	{ cell: "motor_r/speed/count[15]~FF" port: "O_seq" }
+	terminal	{ cell: "motor_r/speed/count[15]~FF" port: "I[2]" }
+	terminal	{ cell: "LUT__646" port: "I[2]" }
+	terminal	{ cell: "LUT__679" port: "I[1]" }
+	terminal	{ cell: "LUT__681" port: "I[1]" }
+ }
+net {
+	name: "n399"
+	terminal	{ cell: "LUT__679" port: "O" }
+	terminal	{ cell: "motor_r/speed/count[16]~FF" port: "I[1]" }
+ }
+net {
+	name: "motor_r/speed/count[16]"
+	terminal	{ cell: "motor_r/speed/count[16]~FF" port: "O_seq" }
+	terminal	{ cell: "motor_r/speed/count[16]~FF" port: "I[2]" }
+	terminal	{ cell: "LUT__646" port: "I[3]" }
+	terminal	{ cell: "LUT__681" port: "I[2]" }
+ }
+net {
+	name: "n400"
+	terminal	{ cell: "LUT__681" port: "O" }
+	terminal	{ cell: "motor_r/speed/count[17]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__683" port: "I[3]" }
+ }
+net {
+	name: "motor_r/speed/count[17]"
+	terminal	{ cell: "motor_r/speed/count[17]~FF" port: "O_seq" }
+	terminal	{ cell: "motor_r/speed/count[17]~FF" port: "I[2]" }
+	terminal	{ cell: "LUT__647" port: "I[0]" }
+	terminal	{ cell: "LUT__683" port: "I[2]" }
+ }
+net {
+	name: "motor_r/speed/count[18]"
+	terminal	{ cell: "motor_r/speed/count[18]~FF" port: "O_seq" }
+	terminal	{ cell: "motor_r/speed/count[18]~FF" port: "I[0]" }
+	terminal	{ cell: "motor_r/speed/count[19]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__651" port: "I[0]" }
+ }
+net {
+	name: "n402"
+	terminal	{ cell: "LUT__684" port: "O" }
+	terminal	{ cell: "motor_r/speed/count[18]~FF" port: "I[1]" }
+	terminal	{ cell: "motor_r/speed/count[19]~FF" port: "I[1]" }
+	terminal	{ cell: "motor_r/speed/count[20]~FF" port: "I[1]" }
+	terminal	{ cell: "motor_r/speed/count[21]~FF" port: "I[2]" }
+ }
+net {
+	name: "motor_r/speed/count[19]"
+	terminal	{ cell: "motor_r/speed/count[19]~FF" port: "O_seq" }
+	terminal	{ cell: "motor_r/speed/count[19]~FF" port: "I[2]" }
+	terminal	{ cell: "LUT__651" port: "I[1]" }
+ }
+net {
+	name: "n388"
+	terminal	{ cell: "LUT__651" port: "O" }
+	terminal	{ cell: "motor_r/speed/count[20]~FF" port: "I[0]" }
+	terminal	{ cell: "motor_r/speed/count[21]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__653" port: "I[2]" }
+	terminal	{ cell: "LUT__689" port: "I[2]" }
+ }
+net {
+	name: "motor_r/speed/count[20]"
+	terminal	{ cell: "motor_r/speed/count[20]~FF" port: "O_seq" }
+	terminal	{ cell: "motor_r/speed/count[20]~FF" port: "I[2]" }
+	terminal	{ cell: "motor_r/speed/count[21]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__647" port: "I[1]" }
+	terminal	{ cell: "LUT__689" port: "I[0]" }
+ }
+net {
+	name: "motor_r/speed/count[21]"
+	terminal	{ cell: "motor_r/speed/count[21]~FF" port: "O_seq" }
+	terminal	{ cell: "motor_r/speed/count[21]~FF" port: "I[3]" }
+	terminal	{ cell: "LUT__647" port: "I[2]" }
+	terminal	{ cell: "LUT__689" port: "I[1]" }
+ }
+net {
+	name: "motor_r/speed/count[22]"
+	terminal	{ cell: "motor_r/speed/count[22]~FF" port: "O_seq" }
+	terminal	{ cell: "motor_r/speed/count[22]~FF" port: "I[0]" }
+	terminal	{ cell: "motor_r/speed/count[23]~FF" port: "I[0]" }
+	terminal	{ cell: "motor_r/speed/count[24]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__647" port: "I[3]" }
+	terminal	{ cell: "LUT__694" port: "I[0]" }
+ }
+net {
+	name: "n404"
+	terminal	{ cell: "LUT__690" port: "O" }
+	terminal	{ cell: "motor_r/speed/count[22]~FF" port: "I[1]" }
+	terminal	{ cell: "motor_r/speed/count[23]~FF" port: "I[1]" }
+	terminal	{ cell: "motor_r/speed/count[24]~FF" port: "I[2]" }
+	terminal	{ cell: "motor_r/speed/count[25]~FF" port: "I[0]" }
+ }
+net {
+	name: "motor_r/speed/count[23]"
+	terminal	{ cell: "motor_r/speed/count[23]~FF" port: "O_seq" }
+	terminal	{ cell: "motor_r/speed/count[23]~FF" port: "I[2]" }
+	terminal	{ cell: "motor_r/speed/count[24]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__648" port: "I[1]" }
+	terminal	{ cell: "LUT__694" port: "I[1]" }
+ }
+net {
+	name: "motor_r/speed/count[24]"
+	terminal	{ cell: "motor_r/speed/count[24]~FF" port: "O_seq" }
+	terminal	{ cell: "motor_r/speed/count[24]~FF" port: "I[3]" }
+	terminal	{ cell: "LUT__648" port: "I[2]" }
+	terminal	{ cell: "LUT__694" port: "I[2]" }
+ }
+net {
+	name: "n405"
+	terminal	{ cell: "LUT__694" port: "O" }
+	terminal	{ cell: "motor_r/speed/count[25]~FF" port: "I[1]" }
+ }
+net {
+	name: "motor_r/speed/count[25]"
+	terminal	{ cell: "motor_r/speed/count[25]~FF" port: "O_seq" }
+	terminal	{ cell: "motor_r/speed/count[25]~FF" port: "I[2]" }
+	terminal	{ cell: "LUT__648" port: "I[3]" }
+ }
+net {
+	name: "n306"
+	terminal	{ cell: "LUT__697" port: "O" }
+	terminal	{ cell: "motor_r/control/sig_out_R[3]~FF" port: "I[1]" }
+	terminal	{ cell: "motor_r/control/sig_out_R[2]~FF" port: "RE" }
+ }
+net {
+	name: "gnd"
+	type: CONSTANT
+	terminal	{ cell: "GND" port: "O" }
+	terminal	{ cell: "motor_r/control/sig_out_R[3]~FF" port: "RE" }
+	terminal	{ cell: "motor_l/control/sig_out_L[3]~FF" port: "RE" }
+	terminal	{ cell: "trigger[2]" port: "outpad" }
+	terminal	{ cell: "trigger[1]" port: "outpad" }
+	terminal	{ cell: "trigger[0]" port: "outpad" }
+ }
+net {
+	name: "sig_out_R[3]"
+	terminal	{ cell: "motor_r/control/sig_out_R[3]~FF" port: "O_seq" }
+	terminal	{ cell: "sig_out_R[3]" port: "outpad" }
+ }
+net {
+	name: "motor_r/new_clk_net~O"
+	type: GLOBAL_CLOCK
+	gbuf_driven: true
+	terminal	{ cell: "CLKBUF__1" port: "clkout" }
+	terminal	{ cell: "motor_r/control/sig_out_R[3]~FF" port: "clk" }
+	terminal	{ cell: "motor_r/control/sig_out_R[2]~FF" port: "clk" }
+	terminal	{ cell: "motor_r/control/sig_out_R[0]~FF" port: "clk" }
+	terminal	{ cell: "motor_r/control/sig_out_R[1]~FF" port: "clk" }
+	terminal	{ cell: "motor_r/control/present_state[0]~FF" port: "clk" }
+	terminal	{ cell: "motor_r/control/present_state[1]~FF" port: "clk" }
+	terminal	{ cell: "motor_r/control/present_state[2]~FF" port: "clk" }
+ }
+net {
+	name: "motor_r/control/present_state[1]"
+	terminal	{ cell: "motor_r/control/present_state[1]~FF" port: "O_seq" }
+	terminal	{ cell: "motor_r/control/sig_out_R[2]~FF" port: "I[0]" }
+	terminal	{ cell: "motor_r/control/sig_out_R[0]~FF" port: "I[1]" }
+	terminal	{ cell: "motor_r/control/sig_out_R[1]~FF" port: "I[2]" }
+	terminal	{ cell: "motor_r/control/present_state[0]~FF" port: "I[1]" }
+	terminal	{ cell: "motor_r/control/present_state[1]~FF" port: "I[2]" }
+	terminal	{ cell: "motor_r/control/present_state[2]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__697" port: "I[0]" }
+	terminal	{ cell: "LUT__700" port: "I[0]" }
+ }
+net {
+	name: "n311"
+	terminal	{ cell: "LUT__696" port: "O" }
+	terminal	{ cell: "motor_r/control/sig_out_R[2]~FF" port: "I[1]" }
+	terminal	{ cell: "motor_r/control/sig_out_R[1]~FF" port: "RE" }
+	terminal	{ cell: "LUT__697" port: "I[1]" }
+ }
+net {
+	name: "sig_out_R[2]"
+	terminal	{ cell: "motor_r/control/sig_out_R[2]~FF" port: "O_seq" }
+	terminal	{ cell: "sig_out_R[2]" port: "outpad" }
+ }
+net {
+	name: "motor_r/control/present_state[0]"
+	terminal	{ cell: "motor_r/control/present_state[0]~FF" port: "O_seq" }
+	terminal	{ cell: "motor_r/control/sig_out_R[0]~FF" port: "I[0]" }
+	terminal	{ cell: "motor_r/control/sig_out_R[1]~FF" port: "I[0]" }
+	terminal	{ cell: "motor_r/control/present_state[1]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__696" port: "I[1]" }
+	terminal	{ cell: "LUT__700" port: "I[1]" }
+ }
+net {
+	name: "motor_r/control/present_state[2]"
+	terminal	{ cell: "motor_r/control/present_state[2]~FF" port: "O_seq" }
+	terminal	{ cell: "motor_r/control/sig_out_R[0]~FF" port: "I[2]" }
+	terminal	{ cell: "motor_r/control/sig_out_R[1]~FF" port: "I[1]" }
+	terminal	{ cell: "motor_r/control/present_state[0]~FF" port: "I[0]" }
+	terminal	{ cell: "motor_r/control/present_state[1]~FF" port: "I[0]" }
+	terminal	{ cell: "motor_r/control/present_state[2]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__696" port: "I[0]" }
+	terminal	{ cell: "LUT__700" port: "I[2]" }
+ }
+net {
+	name: "n309"
+	terminal	{ cell: "LUT__700" port: "O" }
+	terminal	{ cell: "motor_r/control/sig_out_R[0]~FF" port: "RE" }
+ }
+net {
+	name: "sig_out_R[0]"
+	terminal	{ cell: "motor_r/control/sig_out_R[0]~FF" port: "O_seq" }
+	terminal	{ cell: "sig_out_R[0]" port: "outpad" }
+ }
+net {
+	name: "sig_out_R[1]"
+	terminal	{ cell: "motor_r/control/sig_out_R[1]~FF" port: "O_seq" }
+	terminal	{ cell: "sig_out_R[1]" port: "outpad" }
+ }
+net {
+	name: "en"
+	terminal	{ cell: "en" port: "inpad" }
+	terminal	{ cell: "motor_r/control/present_state[0]~FF" port: "I[2]" }
+	terminal	{ cell: "motor_r/control/present_state[1]~FF" port: "I[3]" }
+	terminal	{ cell: "motor_r/control/present_state[2]~FF" port: "I[2]" }
+	terminal	{ cell: "motor_l/control/present_state[0]~FF" port: "I[2]" }
+	terminal	{ cell: "motor_l/control/present_state[1]~FF" port: "I[3]" }
+	terminal	{ cell: "motor_l/control/present_state[2]~FF" port: "I[2]" }
+ }
+net {
+	name: "motor_l/new_clk_net"
+	terminal	{ cell: "motor_l/speed/motor_l/new_clk_net~FF" port: "O_seq" }
+	terminal	{ cell: "motor_l/speed/motor_l/new_clk_net~FF" port: "I[1]" }
+	terminal	{ cell: "CLKBUF__2" port: "I[1]" }
+ }
+net {
+	name: "n317"
+	terminal	{ cell: "LUT__707" port: "O" }
+	terminal	{ cell: "motor_l/control/sig_out_L[3]~FF" port: "I[1]" }
+	terminal	{ cell: "motor_l/control/sig_out_L[2]~FF" port: "RE" }
+ }
+net {
+	name: "sig_out_L[3]"
+	terminal	{ cell: "motor_l/control/sig_out_L[3]~FF" port: "O_seq" }
+	terminal	{ cell: "sig_out_L[3]" port: "outpad" }
+ }
+net {
+	name: "motor_l/new_clk_net~O"
+	type: GLOBAL_CLOCK
+	gbuf_driven: true
+	terminal	{ cell: "CLKBUF__2" port: "clkout" }
+	terminal	{ cell: "motor_l/control/sig_out_L[3]~FF" port: "clk" }
+	terminal	{ cell: "motor_l/control/sig_out_L[2]~FF" port: "clk" }
+	terminal	{ cell: "motor_l/control/sig_out_L[0]~FF" port: "clk" }
+	terminal	{ cell: "motor_l/control/sig_out_L[1]~FF" port: "clk" }
+	terminal	{ cell: "motor_l/control/present_state[0]~FF" port: "clk" }
+	terminal	{ cell: "motor_l/control/present_state[1]~FF" port: "clk" }
+	terminal	{ cell: "motor_l/control/present_state[2]~FF" port: "clk" }
+ }
+net {
+	name: "motor_l/control/present_state[1]"
+	terminal	{ cell: "motor_l/control/present_state[1]~FF" port: "O_seq" }
+	terminal	{ cell: "motor_l/control/sig_out_L[2]~FF" port: "I[0]" }
+	terminal	{ cell: "motor_l/control/sig_out_L[0]~FF" port: "I[1]" }
+	terminal	{ cell: "motor_l/control/sig_out_L[1]~FF" port: "I[2]" }
+	terminal	{ cell: "motor_l/control/present_state[0]~FF" port: "I[1]" }
+	terminal	{ cell: "motor_l/control/present_state[1]~FF" port: "I[2]" }
+	terminal	{ cell: "motor_l/control/present_state[2]~FF" port: "I[0]" }
+	terminal	{ cell: "LUT__707" port: "I[0]" }
+	terminal	{ cell: "LUT__710" port: "I[0]" }
+ }
+net {
+	name: "n322"
+	terminal	{ cell: "LUT__706" port: "O" }
+	terminal	{ cell: "motor_l/control/sig_out_L[2]~FF" port: "I[1]" }
+	terminal	{ cell: "motor_l/control/sig_out_L[1]~FF" port: "RE" }
+	terminal	{ cell: "LUT__707" port: "I[1]" }
+ }
+net {
+	name: "sig_out_L[2]"
+	terminal	{ cell: "motor_l/control/sig_out_L[2]~FF" port: "O_seq" }
+	terminal	{ cell: "sig_out_L[2]" port: "outpad" }
+ }
+net {
+	name: "motor_l/control/present_state[0]"
+	terminal	{ cell: "motor_l/control/present_state[0]~FF" port: "O_seq" }
+	terminal	{ cell: "motor_l/control/sig_out_L[0]~FF" port: "I[0]" }
+	terminal	{ cell: "motor_l/control/sig_out_L[1]~FF" port: "I[0]" }
+	terminal	{ cell: "motor_l/control/present_state[1]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__706" port: "I[1]" }
+	terminal	{ cell: "LUT__710" port: "I[1]" }
+ }
+net {
+	name: "motor_l/control/present_state[2]"
+	terminal	{ cell: "motor_l/control/present_state[2]~FF" port: "O_seq" }
+	terminal	{ cell: "motor_l/control/sig_out_L[0]~FF" port: "I[2]" }
+	terminal	{ cell: "motor_l/control/sig_out_L[1]~FF" port: "I[1]" }
+	terminal	{ cell: "motor_l/control/present_state[0]~FF" port: "I[0]" }
+	terminal	{ cell: "motor_l/control/present_state[1]~FF" port: "I[0]" }
+	terminal	{ cell: "motor_l/control/present_state[2]~FF" port: "I[1]" }
+	terminal	{ cell: "LUT__706" port: "I[0]" }
+	terminal	{ cell: "LUT__710" port: "I[2]" }
+ }
+net {
+	name: "n320"
+	terminal	{ cell: "LUT__710" port: "O" }
+	terminal	{ cell: "motor_l/control/sig_out_L[0]~FF" port: "RE" }
+ }
+net {
+	name: "sig_out_L[0]"
+	terminal	{ cell: "motor_l/control/sig_out_L[0]~FF" port: "O_seq" }
+	terminal	{ cell: "sig_out_L[0]" port: "outpad" }
+ }
+net {
+	name: "sig_out_L[1]"
+	terminal	{ cell: "motor_l/control/sig_out_L[1]~FF" port: "O_seq" }
+	terminal	{ cell: "sig_out_L[1]" port: "outpad" }
+ }
+net {
+	name: "fpgaclk"
+	terminal	{ cell: "fpgaclk" port: "inpad" }
+	terminal	{ cell: "CLKBUF__0" port: "IO_in" }
+ }
+net {
+	name: "n383"
+	terminal	{ cell: "LUT__646" port: "O" }
+	terminal	{ cell: "LUT__654" port: "I[0]" }
+ }
+net {
+	name: "n384"
+	terminal	{ cell: "LUT__647" port: "O" }
+	terminal	{ cell: "LUT__654" port: "I[1]" }
+ }
+net {
+	name: "n385"
+	terminal	{ cell: "LUT__648" port: "O" }
+	terminal	{ cell: "LUT__654" port: "I[2]" }
+ }
+net {
+	name: "n386"
+	terminal	{ cell: "LUT__649" port: "O" }
+	terminal	{ cell: "LUT__653" port: "I[0]" }
+ }
+net {
+	name: "n387"
+	terminal	{ cell: "LUT__650" port: "O" }
+	terminal	{ cell: "LUT__653" port: "I[1]" }
+ }
+net {
+	name: "n389"
+	terminal	{ cell: "LUT__652" port: "O" }
+	terminal	{ cell: "LUT__653" port: "I[3]" }
+ }
+net {
+	name: "n390"
+	terminal	{ cell: "LUT__653" port: "O" }
+	terminal	{ cell: "LUT__654" port: "I[3]" }
+ }
+net {
+	name: "n393"
+	terminal	{ cell: "LUT__665" port: "O" }
+	terminal	{ cell: "LUT__666" port: "I[1]" }
+	terminal	{ cell: "LUT__669" port: "I[3]" }
+	terminal	{ cell: "LUT__674" port: "I[1]" }
+ }
+net {
+	name: "n396"
+	terminal	{ cell: "LUT__673" port: "O" }
+	terminal	{ cell: "LUT__674" port: "I[2]" }
+ }
+net {
+	name: "n401"
+	terminal	{ cell: "LUT__683" port: "O" }
+	terminal	{ cell: "LUT__684" port: "I[1]" }
+	terminal	{ cell: "LUT__690" port: "I[1]" }
+ }
+net {
+	name: "n403"
+	terminal	{ cell: "LUT__689" port: "O" }
+	terminal	{ cell: "LUT__690" port: "I[2]" }
+ }
+routability_metrics {
+	 lut2_ratio: 0.200000
+	 lut3_ratio: 0.457143
+	 lut4_ratio: 0.314286
+	 avg_pins: 2.918919
+	 le_utilization: 0.006514
+	 memory_utilization: 0.000000
+	 dsp_utilization: 0.000000
+	 rent: 0.000000
+	 rm: 0.220547
+	 routing_utilization: 0.000768
+}

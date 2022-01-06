@@ -1,0 +1,44 @@
+clock {
+  name: "fpgaclk"
+  period: 1000
+  target_pin {
+    cell: "fpgaclk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 140
+  }
+}
+clock {
+  name: "motor_r/new_clk_net"
+  period: 1000
+  target_pin {
+    cell: "motor_r/speed/motor_r/new_clk_net~FF"
+    port: "O_seq"
+  }
+  origin: SDC
+  uncertainty {
+    value: 140
+  }
+}
+clock {
+  name: "motor_l/new_clk_net"
+  period: 1000
+  target_pin {
+    cell: "motor_l/speed/motor_l/new_clk_net~FF"
+    port: "O_seq"
+  }
+  origin: SDC
+  uncertainty {
+    value: 140
+  }
+}
+clock {
+  name: "virtual_io_clock"
+  period: 1000
+  origin: SDC
+  uncertainty {
+    value: 140
+  }
+}

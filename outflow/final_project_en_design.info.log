@@ -1,0 +1,592 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jan 06, 2022 18:01:25
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "D:/efinity/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\ultrasonic.v:15) port 'enable' is not connected on this instance (VERI-2435)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:10) port 'enable' remains unconnected for this instance (VERI-1927)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:36) compiling module 'EFX_COMB4' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:46) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:55) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:69) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:85) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:97) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:105) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:140) compiling module 'EFX_DSP48' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:196) compiling module 'EFX_DSP24' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:249) compiling module 'EFX_DSP12' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:302) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:362) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:434) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:539) compiling module 'RAMB5' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:601) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:693) compiling module 'EFX_RAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:794) compiling module 'EFX_DPRAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:924) compiling module 'EFX_SRL8' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\robot.v:4) compiling module 'robot' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:3) compiling module 'pwm' (VERI-1018)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:12) using initial value of 'period' since it is never assigned (VERI-1220)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:13) using initial value of 'clr' since it is never assigned (VERI-1220)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\clkdiv.v:3) compiling module 'clkdiv' (VERI-1018)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\clkdiv.v:20) 'q' should be on the sensitivity list (VERI-1221)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\clkdiv.v:20) expression size 25 truncated to fit in target size 24 (VERI-1209)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:26) 'count' should be on the sensitivity list (VERI-1221)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:32) 'count' should be on the sensitivity list (VERI-1221)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:32) expression size 17 truncated to fit in target size 16 (VERI-1209)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:3) compiling module 'three_ultrasonic' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\ultrasonic.v:3) compiling module 'ultrasonic' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:2) compiling module 'counter' (VERI-1018)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:14) expression size 23 truncated to fit in target size 22 (VERI-1209)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:3) compiling module 'trigger_generator' (VERI-1018)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:10) actual bit length 24 differs from formal bit length 22 for port 'counter_output' (VERI-1330)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:10) input port 'enable' remains unconnected for this instance (VDB-1053)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\ultrasonic.v:15) input port 'enable' is not connected on this instance (VDB-1013)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\Stepper_Motor_Full_Step\pmod_step_interface.v:3) compiling module 'step_motor' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\Stepper_Motor_Full_Step\clock_div.v:3) compiling module 'motor_speed' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\Stepper_Motor_Full_Step\pmod_step_driver.v:3) compiling module 'pmod_step_driver' (VERI-1018)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:36) compiling module 'EFX_COMB4' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:46) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:55) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:69) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:85) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:97) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:105) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:140) compiling module 'EFX_DSP48' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:196) compiling module 'EFX_DSP24' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:249) compiling module 'EFX_DSP12' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:302) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:362) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:434) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:539) compiling module 'RAMB5' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:601) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:693) compiling module 'EFX_RAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:794) compiling module 'EFX_DPRAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:924) compiling module 'EFX_SRL8' (VERI-1018)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0266 WARNING] Module Instance 'clkdiv' input pin tied to constant (clr=0).
+[EFX-0031 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:49) 'i49' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+[EFX-0200 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:5) Removing redundant signal : enable
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:7) Re-wiring to GND non-driven net 'triggerout[2]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:7) Re-wiring to GND non-driven net 'triggerout[1]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:7) Re-wiring to GND non-driven net 'triggerout[0]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:8) Re-wiring to GND non-driven net 'ultrasonic_out[2]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:8) Re-wiring to GND non-driven net 'ultrasonic_out[1]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:8) Re-wiring to GND non-driven net 'ultrasonic_out[0]'.
+[EFX-0031 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\robot.v:42) 'i25' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+[EFX-0031 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\robot.v:42) 'i32' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+[EFX-0200 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\robot.v:13) Removing redundant signal : pwm_2
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "robot"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "clkdiv" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "clkdiv" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pwm" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pwm" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "counter" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "counter" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_generator" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_generator" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ultrasonic" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ultrasonic" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "three_ultrasonic" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "three_ultrasonic" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "motor_speed" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "motor_speed" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pmod_step_driver" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pmod_step_driver" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "step_motor" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "step_motor" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "robot" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "robot" end (Real time : 0s)
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:3) Re-wiring to GND non-driven net 'three_ultrasonic/ultrasonic_left/triggen/cnt/enable'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:3) Re-wiring to GND non-driven net 'three_ultrasonic/ultrasonic_middle/triggen/cnt/enable'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:3) Re-wiring to GND non-driven net 'three_ultrasonic/ultrasonic_right/triggen/cnt/enable'.
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network fpgaclk with 120 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 124 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 1s)
+[EFX-0000 INFO] ... Top level netlist IO pre-synthesis begin
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 228, ed: 696, lv: 4
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n3 with 95 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Top level netlist IO pre-synthesis end (Real time : 1s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+[EFX-0011 VERI-WARNING] Input/Inout Port echo[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port echo[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port echo[0] is unconnected and will be removed
+[EFX-0012 VERI-INFO] Found 3 warnings in the post-synthesis netlist.
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_LUT4        : 	68
+[EFX-0000 INFO] EFX_FF          : 	42
+[EFX-0000 INFO] EFX_GBUFCE      : 	3
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jan 06, 2022 18:35:35
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "D:/efinity/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\ultrasonic.v:15) port 'enable' is not connected on this instance (VERI-2435)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:10) port 'enable' remains unconnected for this instance (VERI-1927)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:36) compiling module 'EFX_COMB4' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:46) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:55) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:69) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:85) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:97) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:105) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:140) compiling module 'EFX_DSP48' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:196) compiling module 'EFX_DSP24' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:249) compiling module 'EFX_DSP12' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:302) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:362) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:434) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:539) compiling module 'RAMB5' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:601) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:693) compiling module 'EFX_RAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:794) compiling module 'EFX_DPRAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:924) compiling module 'EFX_SRL8' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\robot.v:4) compiling module 'robot' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:3) compiling module 'pwm' (VERI-1018)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:12) using initial value of 'period' since it is never assigned (VERI-1220)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:13) using initial value of 'clr' since it is never assigned (VERI-1220)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\clkdiv.v:3) compiling module 'clkdiv' (VERI-1018)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\clkdiv.v:20) 'q' should be on the sensitivity list (VERI-1221)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\clkdiv.v:20) expression size 25 truncated to fit in target size 24 (VERI-1209)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:26) 'count' should be on the sensitivity list (VERI-1221)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:32) 'count' should be on the sensitivity list (VERI-1221)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:32) expression size 17 truncated to fit in target size 16 (VERI-1209)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:3) compiling module 'three_ultrasonic' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\ultrasonic.v:3) compiling module 'ultrasonic' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:2) compiling module 'counter' (VERI-1018)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:14) expression size 23 truncated to fit in target size 22 (VERI-1209)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:3) compiling module 'trigger_generator' (VERI-1018)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:10) actual bit length 24 differs from formal bit length 22 for port 'counter_output' (VERI-1330)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:10) input port 'enable' remains unconnected for this instance (VDB-1053)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\ultrasonic.v:15) input port 'enable' is not connected on this instance (VDB-1013)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\Stepper_Motor_Full_Step\pmod_step_interface.v:3) compiling module 'step_motor' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\Stepper_Motor_Full_Step\clock_div.v:3) compiling module 'motor_speed' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\Stepper_Motor_Full_Step\pmod_step_driver.v:3) compiling module 'pmod_step_driver' (VERI-1018)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:36) compiling module 'EFX_COMB4' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:46) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:55) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:69) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:85) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:97) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:105) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:140) compiling module 'EFX_DSP48' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:196) compiling module 'EFX_DSP24' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:249) compiling module 'EFX_DSP12' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:302) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:362) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:434) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:539) compiling module 'RAMB5' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:601) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:693) compiling module 'EFX_RAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:794) compiling module 'EFX_DPRAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:924) compiling module 'EFX_SRL8' (VERI-1018)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0266 WARNING] Module Instance 'clkdiv' input pin tied to constant (clr=0).
+[EFX-0031 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:49) 'i49' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+[EFX-0200 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:5) Removing redundant signal : enable
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:7) Re-wiring to GND non-driven net 'triggerout[2]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:7) Re-wiring to GND non-driven net 'triggerout[1]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:7) Re-wiring to GND non-driven net 'triggerout[0]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:8) Re-wiring to GND non-driven net 'ultrasonic_out[2]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:8) Re-wiring to GND non-driven net 'ultrasonic_out[1]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:8) Re-wiring to GND non-driven net 'ultrasonic_out[0]'.
+[EFX-0031 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\robot.v:42) 'i25' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+[EFX-0031 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\robot.v:42) 'i32' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+[EFX-0200 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\robot.v:13) Removing redundant signal : pwm_2
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "robot"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "clkdiv" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "clkdiv" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pwm" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pwm" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "counter" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "counter" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_generator" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_generator" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ultrasonic" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ultrasonic" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "three_ultrasonic" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "three_ultrasonic" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "motor_speed" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "motor_speed" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pmod_step_driver" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pmod_step_driver" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "step_motor" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "step_motor" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "robot" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "robot" end (Real time : 0s)
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:3) Re-wiring to GND non-driven net 'three_ultrasonic/ultrasonic_left/triggen/cnt/enable'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:3) Re-wiring to GND non-driven net 'three_ultrasonic/ultrasonic_middle/triggen/cnt/enable'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:3) Re-wiring to GND non-driven net 'three_ultrasonic/ultrasonic_right/triggen/cnt/enable'.
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network fpgaclk with 120 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 124 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Top level netlist IO pre-synthesis begin
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 228, ed: 696, lv: 4
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n3 with 95 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Top level netlist IO pre-synthesis end (Real time : 1s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+[EFX-0011 VERI-WARNING] Input/Inout Port echo[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port echo[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port echo[0] is unconnected and will be removed
+[EFX-0012 VERI-INFO] Found 3 warnings in the post-synthesis netlist.
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_LUT4        : 	68
+[EFX-0000 INFO] EFX_FF          : 	42
+[EFX-0000 INFO] EFX_GBUFCE      : 	3
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jan 06, 2022 18:38:34
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "D:/efinity/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\ultrasonic.v:15) port 'enable' is not connected on this instance (VERI-2435)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:10) port 'enable' remains unconnected for this instance (VERI-1927)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:36) compiling module 'EFX_COMB4' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:46) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:55) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:69) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:85) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:97) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:105) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:140) compiling module 'EFX_DSP48' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:196) compiling module 'EFX_DSP24' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:249) compiling module 'EFX_DSP12' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:302) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:362) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:434) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:539) compiling module 'RAMB5' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:601) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:693) compiling module 'EFX_RAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:794) compiling module 'EFX_DPRAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:924) compiling module 'EFX_SRL8' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\robot.v:4) compiling module 'robot' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:3) compiling module 'pwm' (VERI-1018)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:12) using initial value of 'period' since it is never assigned (VERI-1220)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:13) using initial value of 'clr' since it is never assigned (VERI-1220)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\clkdiv.v:3) compiling module 'clkdiv' (VERI-1018)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\clkdiv.v:20) 'q' should be on the sensitivity list (VERI-1221)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\clkdiv.v:20) expression size 25 truncated to fit in target size 24 (VERI-1209)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:26) 'count' should be on the sensitivity list (VERI-1221)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:32) 'count' should be on the sensitivity list (VERI-1221)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:32) expression size 17 truncated to fit in target size 16 (VERI-1209)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:3) compiling module 'three_ultrasonic' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\ultrasonic.v:3) compiling module 'ultrasonic' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:2) compiling module 'counter' (VERI-1018)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:14) expression size 23 truncated to fit in target size 22 (VERI-1209)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:3) compiling module 'trigger_generator' (VERI-1018)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:10) actual bit length 24 differs from formal bit length 22 for port 'counter_output' (VERI-1330)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:10) input port 'enable' remains unconnected for this instance (VDB-1053)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\ultrasonic.v:15) input port 'enable' is not connected on this instance (VDB-1013)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\Stepper_Motor_Full_Step\pmod_step_interface.v:3) compiling module 'step_motor' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\Stepper_Motor_Full_Step\clock_div.v:3) compiling module 'motor_speed' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\Stepper_Motor_Full_Step\pmod_step_driver.v:3) compiling module 'pmod_step_driver' (VERI-1018)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:36) compiling module 'EFX_COMB4' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:46) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:55) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:69) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:85) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:97) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:105) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:140) compiling module 'EFX_DSP48' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:196) compiling module 'EFX_DSP24' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:249) compiling module 'EFX_DSP12' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:302) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:362) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:434) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:539) compiling module 'RAMB5' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:601) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:693) compiling module 'EFX_RAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:794) compiling module 'EFX_DPRAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:924) compiling module 'EFX_SRL8' (VERI-1018)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0266 WARNING] Module Instance 'clkdiv' input pin tied to constant (clr=0).
+[EFX-0031 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:49) 'i49' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+[EFX-0200 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:5) Removing redundant signal : enable
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:7) Re-wiring to GND non-driven net 'triggerout[2]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:7) Re-wiring to GND non-driven net 'triggerout[1]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:7) Re-wiring to GND non-driven net 'triggerout[0]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:8) Re-wiring to GND non-driven net 'ultrasonic_out[2]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:8) Re-wiring to GND non-driven net 'ultrasonic_out[1]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:8) Re-wiring to GND non-driven net 'ultrasonic_out[0]'.
+[EFX-0031 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\robot.v:42) 'i25' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+[EFX-0031 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\robot.v:42) 'i32' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+[EFX-0200 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\robot.v:13) Removing redundant signal : pwm_2
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "robot"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "clkdiv" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "clkdiv" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pwm" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pwm" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "counter" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "counter" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_generator" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_generator" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ultrasonic" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ultrasonic" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "three_ultrasonic" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "three_ultrasonic" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "motor_speed" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "motor_speed" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pmod_step_driver" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pmod_step_driver" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "step_motor" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "step_motor" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "robot" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "robot" end (Real time : 0s)
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:3) Re-wiring to GND non-driven net 'three_ultrasonic/ultrasonic_left/triggen/cnt/enable'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:3) Re-wiring to GND non-driven net 'three_ultrasonic/ultrasonic_middle/triggen/cnt/enable'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:3) Re-wiring to GND non-driven net 'three_ultrasonic/ultrasonic_right/triggen/cnt/enable'.
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network fpgaclk with 120 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 124 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Top level netlist IO pre-synthesis begin
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 228, ed: 696, lv: 4
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n3 with 95 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Top level netlist IO pre-synthesis end (Real time : 1s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+[EFX-0011 VERI-WARNING] Input/Inout Port echo[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port echo[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port echo[0] is unconnected and will be removed
+[EFX-0012 VERI-INFO] Found 3 warnings in the post-synthesis netlist.
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_LUT4        : 	68
+[EFX-0000 INFO] EFX_FF          : 	42
+[EFX-0000 INFO] EFX_GBUFCE      : 	3
+[EFX-0000 INFO] =============================== 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jan 06, 2022 18:41:21
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "D:/efinity/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\ultrasonic.v:15) port 'enable' is not connected on this instance (VERI-2435)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:10) port 'enable' remains unconnected for this instance (VERI-1927)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:36) compiling module 'EFX_COMB4' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:46) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:55) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:69) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:85) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:97) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:105) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:140) compiling module 'EFX_DSP48' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:196) compiling module 'EFX_DSP24' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:249) compiling module 'EFX_DSP12' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:302) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:362) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:434) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:539) compiling module 'RAMB5' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:601) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:693) compiling module 'EFX_RAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:794) compiling module 'EFX_DPRAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:924) compiling module 'EFX_SRL8' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\robot.v:4) compiling module 'robot' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:3) compiling module 'pwm' (VERI-1018)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:12) using initial value of 'period' since it is never assigned (VERI-1220)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:13) using initial value of 'clr' since it is never assigned (VERI-1220)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\clkdiv.v:3) compiling module 'clkdiv' (VERI-1018)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\clkdiv.v:20) 'q' should be on the sensitivity list (VERI-1221)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\clkdiv.v:20) expression size 25 truncated to fit in target size 24 (VERI-1209)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:26) 'count' should be on the sensitivity list (VERI-1221)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:32) 'count' should be on the sensitivity list (VERI-1221)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:32) expression size 17 truncated to fit in target size 16 (VERI-1209)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:3) compiling module 'three_ultrasonic' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\ultrasonic.v:3) compiling module 'ultrasonic' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:2) compiling module 'counter' (VERI-1018)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:14) expression size 23 truncated to fit in target size 22 (VERI-1209)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:3) compiling module 'trigger_generator' (VERI-1018)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:10) actual bit length 24 differs from formal bit length 22 for port 'counter_output' (VERI-1330)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:10) input port 'enable' remains unconnected for this instance (VDB-1053)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\ultrasonic.v:15) input port 'enable' is not connected on this instance (VDB-1013)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\Stepper_Motor_Full_Step\pmod_step_interface.v:3) compiling module 'step_motor' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\Stepper_Motor_Full_Step\clock_div.v:3) compiling module 'motor_speed' (VERI-1018)
+[EFX-0012 VERI-INFO] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\Stepper_Motor_Full_Step\pmod_step_driver.v:3) compiling module 'pmod_step_driver' (VERI-1018)
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:6) compiling module 'EFX_ADD' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:19) compiling module 'EFX_FF' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:36) compiling module 'EFX_COMB4' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:46) compiling module 'EFX_GBUFCE' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:55) compiling module 'EFX_IDDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:69) compiling module 'EFX_ODDR' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:85) compiling module 'EFX_IOBUF' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:97) compiling module 'EFX_LUT4' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:105) compiling module 'EFX_MULT' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:140) compiling module 'EFX_DSP48' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:196) compiling module 'EFX_DSP24' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:249) compiling module 'EFX_DSP12' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:302) compiling module 'EFX_RAM_4K' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:362) compiling module 'EFX_RAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:434) compiling module 'EFX_DPRAM_5K' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:539) compiling module 'RAMB5' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:601) compiling module 'EFX_RAM_10K' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:693) compiling module 'EFX_RAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:794) compiling module 'EFX_DPRAM10' (VERI-1018)
+[EFX-0012 VERI-INFO] (D:/efinity/sim_models/maplib/efinix_maplib.v:924) compiling module 'EFX_SRL8' (VERI-1018)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0266 WARNING] Module Instance 'clkdiv' input pin tied to constant (clr=0).
+[EFX-0031 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:49) 'i49' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+[EFX-0200 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:5) Removing redundant signal : enable
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:7) Re-wiring to GND non-driven net 'triggerout[2]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:7) Re-wiring to GND non-driven net 'triggerout[1]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:7) Re-wiring to GND non-driven net 'triggerout[0]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:8) Re-wiring to GND non-driven net 'ultrasonic_out[2]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:8) Re-wiring to GND non-driven net 'ultrasonic_out[1]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:8) Re-wiring to GND non-driven net 'ultrasonic_out[0]'.
+[EFX-0031 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\robot.v:42) 'i25' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+[EFX-0031 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\robot.v:42) 'i32' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+[EFX-0200 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\robot.v:13) Removing redundant signal : pwm_2
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "robot"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "clkdiv" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "clkdiv" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pwm" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pwm" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "counter" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "counter" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_generator" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "trigger_generator" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ultrasonic" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ultrasonic" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "three_ultrasonic" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "three_ultrasonic" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "motor_speed" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "motor_speed" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pmod_step_driver" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pmod_step_driver" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "step_motor" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "step_motor" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "robot" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "robot" end (Real time : 0s)
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:3) Re-wiring to GND non-driven net 'three_ultrasonic/ultrasonic_left/triggen/cnt/enable'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:3) Re-wiring to GND non-driven net 'three_ultrasonic/ultrasonic_middle/triggen/cnt/enable'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:3) Re-wiring to GND non-driven net 'three_ultrasonic/ultrasonic_right/triggen/cnt/enable'.
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network fpgaclk with 120 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 124 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Top level netlist IO pre-synthesis begin
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 228, ed: 696, lv: 4
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n3 with 95 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Top level netlist IO pre-synthesis end (Real time : 1s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+[EFX-0011 VERI-WARNING] Input/Inout Port echo[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port echo[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port echo[0] is unconnected and will be removed
+[EFX-0012 VERI-INFO] Found 3 warnings in the post-synthesis netlist.
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_LUT4        : 	68
+[EFX-0000 INFO] EFX_FF          : 	42
+[EFX-0000 INFO] EFX_GBUFCE      : 	3
+[EFX-0000 INFO] =============================== 

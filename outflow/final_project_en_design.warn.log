@@ -1,0 +1,148 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jan 06, 2022 18:01:25
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\ultrasonic.v:15) port 'enable' is not connected on this instance (VERI-2435)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:10) port 'enable' remains unconnected for this instance (VERI-1927)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:12) using initial value of 'period' since it is never assigned (VERI-1220)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:13) using initial value of 'clr' since it is never assigned (VERI-1220)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\clkdiv.v:20) 'q' should be on the sensitivity list (VERI-1221)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\clkdiv.v:20) expression size 25 truncated to fit in target size 24 (VERI-1209)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:26) 'count' should be on the sensitivity list (VERI-1221)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:32) 'count' should be on the sensitivity list (VERI-1221)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:32) expression size 17 truncated to fit in target size 16 (VERI-1209)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:14) expression size 23 truncated to fit in target size 22 (VERI-1209)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:10) actual bit length 24 differs from formal bit length 22 for port 'counter_output' (VERI-1330)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:10) input port 'enable' remains unconnected for this instance (VDB-1053)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\ultrasonic.v:15) input port 'enable' is not connected on this instance (VDB-1013)
+[EFX-0266 WARNING] Module Instance 'clkdiv' input pin tied to constant (clr=0).
+[EFX-0031 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:49) 'i49' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+[EFX-0200 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:5) Removing redundant signal : enable
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:7) Re-wiring to GND non-driven net 'triggerout[2]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:7) Re-wiring to GND non-driven net 'triggerout[1]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:7) Re-wiring to GND non-driven net 'triggerout[0]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:8) Re-wiring to GND non-driven net 'ultrasonic_out[2]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:8) Re-wiring to GND non-driven net 'ultrasonic_out[1]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:8) Re-wiring to GND non-driven net 'ultrasonic_out[0]'.
+[EFX-0031 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\robot.v:42) 'i25' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+[EFX-0031 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\robot.v:42) 'i32' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+[EFX-0200 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\robot.v:13) Removing redundant signal : pwm_2
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:3) Re-wiring to GND non-driven net 'three_ultrasonic/ultrasonic_left/triggen/cnt/enable'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:3) Re-wiring to GND non-driven net 'three_ultrasonic/ultrasonic_middle/triggen/cnt/enable'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:3) Re-wiring to GND non-driven net 'three_ultrasonic/ultrasonic_right/triggen/cnt/enable'.
+[EFX-0011 VERI-WARNING] Input/Inout Port echo[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port echo[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port echo[0] is unconnected and will be removed
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jan 06, 2022 18:35:35
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\ultrasonic.v:15) port 'enable' is not connected on this instance (VERI-2435)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:10) port 'enable' remains unconnected for this instance (VERI-1927)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:12) using initial value of 'period' since it is never assigned (VERI-1220)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:13) using initial value of 'clr' since it is never assigned (VERI-1220)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\clkdiv.v:20) 'q' should be on the sensitivity list (VERI-1221)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\clkdiv.v:20) expression size 25 truncated to fit in target size 24 (VERI-1209)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:26) 'count' should be on the sensitivity list (VERI-1221)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:32) 'count' should be on the sensitivity list (VERI-1221)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:32) expression size 17 truncated to fit in target size 16 (VERI-1209)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:14) expression size 23 truncated to fit in target size 22 (VERI-1209)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:10) actual bit length 24 differs from formal bit length 22 for port 'counter_output' (VERI-1330)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:10) input port 'enable' remains unconnected for this instance (VDB-1053)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\ultrasonic.v:15) input port 'enable' is not connected on this instance (VDB-1013)
+[EFX-0266 WARNING] Module Instance 'clkdiv' input pin tied to constant (clr=0).
+[EFX-0031 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:49) 'i49' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+[EFX-0200 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:5) Removing redundant signal : enable
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:7) Re-wiring to GND non-driven net 'triggerout[2]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:7) Re-wiring to GND non-driven net 'triggerout[1]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:7) Re-wiring to GND non-driven net 'triggerout[0]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:8) Re-wiring to GND non-driven net 'ultrasonic_out[2]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:8) Re-wiring to GND non-driven net 'ultrasonic_out[1]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:8) Re-wiring to GND non-driven net 'ultrasonic_out[0]'.
+[EFX-0031 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\robot.v:42) 'i25' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+[EFX-0031 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\robot.v:42) 'i32' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+[EFX-0200 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\robot.v:13) Removing redundant signal : pwm_2
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:3) Re-wiring to GND non-driven net 'three_ultrasonic/ultrasonic_left/triggen/cnt/enable'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:3) Re-wiring to GND non-driven net 'three_ultrasonic/ultrasonic_middle/triggen/cnt/enable'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:3) Re-wiring to GND non-driven net 'three_ultrasonic/ultrasonic_right/triggen/cnt/enable'.
+[EFX-0011 VERI-WARNING] Input/Inout Port echo[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port echo[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port echo[0] is unconnected and will be removed
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jan 06, 2022 18:38:34
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\ultrasonic.v:15) port 'enable' is not connected on this instance (VERI-2435)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:10) port 'enable' remains unconnected for this instance (VERI-1927)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:12) using initial value of 'period' since it is never assigned (VERI-1220)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:13) using initial value of 'clr' since it is never assigned (VERI-1220)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\clkdiv.v:20) 'q' should be on the sensitivity list (VERI-1221)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\clkdiv.v:20) expression size 25 truncated to fit in target size 24 (VERI-1209)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:26) 'count' should be on the sensitivity list (VERI-1221)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:32) 'count' should be on the sensitivity list (VERI-1221)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:32) expression size 17 truncated to fit in target size 16 (VERI-1209)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:14) expression size 23 truncated to fit in target size 22 (VERI-1209)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:10) actual bit length 24 differs from formal bit length 22 for port 'counter_output' (VERI-1330)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:10) input port 'enable' remains unconnected for this instance (VDB-1053)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\ultrasonic.v:15) input port 'enable' is not connected on this instance (VDB-1013)
+[EFX-0266 WARNING] Module Instance 'clkdiv' input pin tied to constant (clr=0).
+[EFX-0031 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:49) 'i49' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+[EFX-0200 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:5) Removing redundant signal : enable
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:7) Re-wiring to GND non-driven net 'triggerout[2]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:7) Re-wiring to GND non-driven net 'triggerout[1]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:7) Re-wiring to GND non-driven net 'triggerout[0]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:8) Re-wiring to GND non-driven net 'ultrasonic_out[2]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:8) Re-wiring to GND non-driven net 'ultrasonic_out[1]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:8) Re-wiring to GND non-driven net 'ultrasonic_out[0]'.
+[EFX-0031 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\robot.v:42) 'i25' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+[EFX-0031 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\robot.v:42) 'i32' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+[EFX-0200 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\robot.v:13) Removing redundant signal : pwm_2
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:3) Re-wiring to GND non-driven net 'three_ultrasonic/ultrasonic_left/triggen/cnt/enable'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:3) Re-wiring to GND non-driven net 'three_ultrasonic/ultrasonic_middle/triggen/cnt/enable'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:3) Re-wiring to GND non-driven net 'three_ultrasonic/ultrasonic_right/triggen/cnt/enable'.
+[EFX-0011 VERI-WARNING] Input/Inout Port echo[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port echo[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port echo[0] is unconnected and will be removed
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jan 06, 2022 18:41:21
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\ultrasonic.v:15) port 'enable' is not connected on this instance (VERI-2435)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:10) port 'enable' remains unconnected for this instance (VERI-1927)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:12) using initial value of 'period' since it is never assigned (VERI-1220)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:13) using initial value of 'clr' since it is never assigned (VERI-1220)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\clkdiv.v:20) 'q' should be on the sensitivity list (VERI-1221)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\clkdiv.v:20) expression size 25 truncated to fit in target size 24 (VERI-1209)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:26) 'count' should be on the sensitivity list (VERI-1221)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:32) 'count' should be on the sensitivity list (VERI-1221)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:32) expression size 17 truncated to fit in target size 16 (VERI-1209)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:14) expression size 23 truncated to fit in target size 22 (VERI-1209)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:10) actual bit length 24 differs from formal bit length 22 for port 'counter_output' (VERI-1330)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:10) input port 'enable' remains unconnected for this instance (VDB-1053)
+[EFX-0011 VERI-WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\ultrasonic.v:15) input port 'enable' is not connected on this instance (VDB-1013)
+[EFX-0266 WARNING] Module Instance 'clkdiv' input pin tied to constant (clr=0).
+[EFX-0031 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\pwm.v:49) 'i49' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+[EFX-0200 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\trig_gen.v:5) Removing redundant signal : enable
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:7) Re-wiring to GND non-driven net 'triggerout[2]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:7) Re-wiring to GND non-driven net 'triggerout[1]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:7) Re-wiring to GND non-driven net 'triggerout[0]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:8) Re-wiring to GND non-driven net 'ultrasonic_out[2]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:8) Re-wiring to GND non-driven net 'ultrasonic_out[1]'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\three_us.v:8) Re-wiring to GND non-driven net 'ultrasonic_out[0]'.
+[EFX-0031 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\robot.v:42) 'i25' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+[EFX-0031 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\robot.v:42) 'i32' instance is encountered with don't-care(1'bx) input, rewiring to GND.
+[EFX-0200 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\robot.v:13) Removing redundant signal : pwm_2
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:3) Re-wiring to GND non-driven net 'three_ultrasonic/ultrasonic_left/triggen/cnt/enable'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:3) Re-wiring to GND non-driven net 'three_ultrasonic/ultrasonic_middle/triggen/cnt/enable'.
+[EFX-0201 WARNING] (C:/Users\user\Desktop\mert proje\Yeni klasör\final_project_en_des\final_project_en_des.srcs\sources_1\imports\Desktop\final project\counter.v:3) Re-wiring to GND non-driven net 'three_ultrasonic/ultrasonic_right/triggen/cnt/enable'.
+[EFX-0011 VERI-WARNING] Input/Inout Port echo[2] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port echo[1] is unconnected and will be removed
+[EFX-0011 VERI-WARNING] Input/Inout Port echo[0] is unconnected and will be removed
