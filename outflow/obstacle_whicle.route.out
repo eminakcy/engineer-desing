@@ -1,0 +1,207 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2021.1.165 
+Compiled: Jun 25 2021.
+
+Copyright (C) 2013 - 2021 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T8F81" ...
+
+***** Beginning stage routing graph generation ... *****
+Read ipin pattern from D:/efinity/arch/./ipin_oph.xml
+Finished parsing ipin pattern file 'D:/efinity/arch/./ipin_oph.xdb'.
+Finished parsing switch_block file 'D:/efinity/arch/.\sb_connectivity_subset.xdb'.
+BuildGraph process took 1.95757 seconds.
+	BuildGraph process took 1.90625 seconds (approximately) in total CPU time.
+BuildGraph process virtual memory usage: begin = 27.752 MB, end = 143.52 MB, delta = 115.768 MB
+	BuildGraph process peak virtual memory usage = 145.128 MB
+BuildGraph process resident set memory usage: begin = 33.228 MB, end = 147.76 MB, delta = 114.532 MB
+	BuildGraph process peak resident set memory usage = 149.292 MB
+check rr_graph process took 0.0403679 seconds.
+	check rr_graph process took 0.03125 seconds (approximately) in total CPU time.
+check rr_graph process virtual memory usage: begin = 155.86 MB, end = 155.86 MB, delta = 0 MB
+	check rr_graph process peak virtual memory usage = 158.976 MB
+check rr_graph process resident set memory usage: begin = 160.096 MB, end = 160.18 MB, delta = 0.084 MB
+	check rr_graph process peak resident set memory usage = 163.264 MB
+Generated 393772 RR nodes and 1460210 RR edges
+This design has 0 global control net(s). See C:/Users/user/Desktop/final project/outflow\obstacle_whicle.route.rpt for details.
+Routing graph took 2.05101 seconds.
+	Routing graph took 1.98438 seconds (approximately) in total CPU time.
+Routing graph virtual memory usage: begin = 25.22 MB, end = 134.816 MB, delta = 109.596 MB
+	Routing graph peak virtual memory usage = 158.976 MB
+Routing graph resident set memory usage: begin = 32.32 MB, end = 139.776 MB, delta = 107.456 MB
+	Routing graph peak resident set memory usage = 163.264 MB
+***** Ending stage routing graph generation *****
+***** Beginning stage routing ... *****
+
+ ---------      -------     --------------      -------------
+ Iteration      Overuse     Crit Path (ns)      Calc Time (s)
+ ---------      -------     --------------      -------------
+         1          119             -1e+09             0.0274
+         2           14             -1e+09              0.015
+         3            5             -1e+09             0.0127
+         4            0             -1e+09              0.013
+
+Successfully routed netlist after 4 routing iterations and 46351 heapops
+Completed net delay value cross check successfully.
+
+***** Beginning stage routing check ... *****
+***** Ending stage routing check *****
+
+Serial number (magic cookie) for the routing is: 147235646
+Netlist fully routed.
+
+Successfully created FPGA route file 'C:/Users/user/Desktop/final project/outflow/obstacle_whicle.route'
+Routing took 0.162232 seconds.
+	Routing took 0.140625 seconds (approximately) in total CPU time.
+Routing virtual memory usage: begin = 137.064 MB, end = 138.196 MB, delta = 1.132 MB
+	Routing peak virtual memory usage = 168.336 MB
+Routing resident set memory usage: begin = 141.68 MB, end = 142.944 MB, delta = 1.264 MB
+	Routing peak resident set memory usage = 164.936 MB
+***** Ending stage routing *****
+***** Beginning stage final timing analysis ... *****
+WARNING(1): Found combinational cycle from timing node 73 to 74
+WARNING(2): 	Cutting timing edge on block pin pwm/clkdiv/dlatchrs_81/i1.in[3]
+WARNING(3): Found combinational cycle from timing node 84 to 86
+WARNING(4): 	Cutting timing edge on block pin pwm/clkdiv/dlatchrs_81/i2.in[1]
+WARNING(5): Found combinational cycle from timing node 498 to 500
+WARNING(6): 	Cutting timing edge on block pin LUT__361.in[1]
+WARNING(7): Found combinational cycle from timing node 97 to 98
+WARNING(8): 	Cutting timing edge on block pin pwm/clkdiv/dlatchrs_81/i3.in[3]
+WARNING(9): Found combinational cycle from timing node 509 to 512
+WARNING(10): 	Cutting timing edge on block pin LUT__362.in[0]
+WARNING(11): Found combinational cycle from timing node 109 to 110
+WARNING(12): 	Cutting timing edge on block pin pwm/clkdiv/dlatchrs_81/i4.in[3]
+WARNING(13): Found combinational cycle from timing node 523 to 527
+WARNING(14): 	Cutting timing edge on block pin LUT__363.in[0]
+WARNING(15): Found combinational cycle from timing node 121 to 122
+WARNING(16): 	Cutting timing edge on block pin pwm/clkdiv/dlatchrs_81/i5.in[3]
+WARNING(17): Found combinational cycle from timing node 549 to 551
+WARNING(18): 	Cutting timing edge on block pin LUT__365.in[2]
+WARNING(19): Found combinational cycle from timing node 133 to 134
+WARNING(20): 	Cutting timing edge on block pin pwm/clkdiv/dlatchrs_81/i6.in[3]
+WARNING(21): Found combinational cycle from timing node 562 to 563
+WARNING(22): 	Cutting timing edge on block pin LUT__366.in[2]
+WARNING(23): Found combinational cycle from timing node 61 to 62
+WARNING(24): 	Cutting timing edge on block pin pwm/dlatchrs_73/i1.in[3]
+WARNING(25): Found combinational cycle from timing node 47 to 50
+WARNING(26): 	Cutting timing edge on block pin pwm/i49.in[1]
+WARNING(27): Found combinational cycle from timing node 216 to 218
+WARNING(28): 	Cutting timing edge on block pin pwm/dlatchrs_73/i7.in[2]
+WARNING(29): Found combinational cycle from timing node 60 to 62
+WARNING(30): 	Cutting timing edge on block pin pwm/dlatchrs_73/i1.in[2]
+WARNING(31): Found combinational cycle from timing node 155 to 158
+WARNING(32): 	Cutting timing edge on block pin pwm/dlatchrs_73/i2.in[1]
+WARNING(33): Found combinational cycle from timing node 411 to 413
+WARNING(34): 	Cutting timing edge on block pin LUT__354.in[0]
+WARNING(35): Found combinational cycle from timing node 466 to 467
+WARNING(36): 	Cutting timing edge on block pin LUT__358.in[3]
+WARNING(37): Found combinational cycle from timing node 595 to 596
+WARNING(38): 	Cutting timing edge on block pin LUT__396.in[2]
+WARNING(39): Found combinational cycle from timing node 661 to 662
+WARNING(40): 	Cutting timing edge on block pin LUT__402.in[3]
+WARNING(41): Found combinational cycle from timing node 227 to 230
+WARNING(42): 	Cutting timing edge on block pin pwm/dlatchrs_73/i8.in[0]
+WARNING(43): Found combinational cycle from timing node 463 to 467
+WARNING(44): 	Cutting timing edge on block pin LUT__358.in[0]
+WARNING(45): Found combinational cycle from timing node 673 to 677
+WARNING(46): 	Cutting timing edge on block pin LUT__403.in[0]
+WARNING(47): Found combinational cycle from timing node 240 to 242
+WARNING(48): 	Cutting timing edge on block pin pwm/dlatchrs_73/i9.in[2]
+WARNING(49): Found combinational cycle from timing node 478 to 482
+WARNING(50): 	Cutting timing edge on block pin LUT__359.in[0]
+WARNING(51): Found combinational cycle from timing node 696 to 698
+WARNING(52): 	Cutting timing edge on block pin LUT__405.in[1]
+WARNING(53): Found combinational cycle from timing node 251 to 254
+WARNING(54): 	Cutting timing edge on block pin pwm/dlatchrs_73/i10.in[1]
+WARNING(55): Found combinational cycle from timing node 709 to 713
+WARNING(56): 	Cutting timing edge on block pin LUT__406.in[0]
+WARNING(57): Found combinational cycle from timing node 265 to 266
+WARNING(58): 	Cutting timing edge on block pin pwm/dlatchrs_73/i11.in[3]
+WARNING(59): Found combinational cycle from timing node 737 to 740
+WARNING(60): 	Cutting timing edge on block pin LUT__408.in[0]
+WARNING(61): Found combinational cycle from timing node 277 to 278
+WARNING(62): 	Cutting timing edge on block pin pwm/dlatchrs_73/i12.in[3]
+WARNING(63): Found combinational cycle from timing node 752 to 755
+WARNING(64): 	Cutting timing edge on block pin LUT__409.in[1]
+WARNING(65): Found combinational cycle from timing node 288 to 290
+WARNING(66): 	Cutting timing edge on block pin pwm/dlatchrs_73/i13.in[1]
+WARNING(67): Found combinational cycle from timing node 480 to 482
+WARNING(68): 	Cutting timing edge on block pin LUT__359.in[2]
+WARNING(69): Found combinational cycle from timing node 786 to 788
+WARNING(70): 	Cutting timing edge on block pin LUT__412.in[1]
+WARNING(71): Found combinational cycle from timing node 301 to 302
+WARNING(72): 	Cutting timing edge on block pin pwm/dlatchrs_73/i14.in[3]
+WARNING(73): Found combinational cycle from timing node 798 to 800
+WARNING(74): 	Cutting timing edge on block pin LUT__413.in[1]
+WARNING(75): Found combinational cycle from timing node 312 to 314
+WARNING(76): 	Cutting timing edge on block pin pwm/dlatchrs_73/i15.in[2]
+WARNING(77): Found combinational cycle from timing node 819 to 821
+WARNING(78): 	Cutting timing edge on block pin LUT__415.in[2]
+WARNING(79): Found combinational cycle from timing node 325 to 326
+WARNING(80): 	Cutting timing edge on block pin pwm/dlatchrs_73/i16.in[3]
+WARNING(81): Found combinational cycle from timing node 835 to 836
+WARNING(82): 	Cutting timing edge on block pin LUT__416.in[3]
+WARNING(83): Found combinational cycle from timing node 660 to 662
+WARNING(84): 	Cutting timing edge on block pin LUT__402.in[2]
+WARNING(85): Found combinational cycle from timing node 169 to 170
+WARNING(86): 	Cutting timing edge on block pin pwm/dlatchrs_73/i3.in[3]
+WARNING(87): Found combinational cycle from timing node 603 to 605
+WARNING(88): 	Cutting timing edge on block pin LUT__397.in[1]
+WARNING(89): Found combinational cycle from timing node 181 to 182
+WARNING(90): 	Cutting timing edge on block pin pwm/dlatchrs_73/i4.in[3]
+WARNING(91): Found combinational cycle from timing node 616 to 617
+WARNING(92): 	Cutting timing edge on block pin LUT__398.in[3]
+WARNING(93): Found combinational cycle from timing node 192 to 194
+WARNING(94): 	Cutting timing edge on block pin pwm/dlatchrs_73/i5.in[1]
+WARNING(95): Found combinational cycle from timing node 636 to 638
+WARNING(96): 	Cutting timing edge on block pin LUT__400.in[0]
+WARNING(97): Found combinational cycle from timing node 204 to 206
+WARNING(98): 	Cutting timing edge on block pin pwm/dlatchrs_73/i6.in[1]
+WARNING(99): Found combinational cycle from timing node 648 to 650
+WARNING(100): 	Cutting timing edge on block pin LUT__401.in[1]
+WARNING(101): Found combinational cycle from timing node 145 to 146
+WARNING(102): 	Cutting timing edge on block pin pwm/clkdiv/dlatchrs_81/i7.in[3]
+WARNING(103): Found combinational cycle from timing node 582 to 584
+WARNING(104): 	Cutting timing edge on block pin LUT__368.in[0]
+WARNING(105): Found combinational cycle from timing node 71 to 74
+WARNING(106): 	Cutting timing edge on block pin pwm/clkdiv/dlatchrs_81/i1.in[1]
+WARNING(107): No valid clock domains found to analyze, check your SDC constraints
+
+Maximum possible analyzed clocks frequency
+Clock Name          Period (ns)   Frequency (MHz)   Edge
+
+Geomean max period: 1
+
+Launch Clock      Capture Clock     Constraint (ns)   Slack (ns)    Edge
+
+
+final timing analysis took 0.0159651 seconds.
+	final timing analysis took 0.015625 seconds (approximately) in total CPU time.
+final timing analysis virtual memory usage: begin = 138.196 MB, end = 138.2 MB, delta = 0.004 MB
+	final timing analysis peak virtual memory usage = 168.336 MB
+final timing analysis resident set memory usage: begin = 142.952 MB, end = 143.096 MB, delta = 0.144 MB
+	final timing analysis peak resident set memory usage = 164.936 MB
+***** Ending stage final timing analysis *****
+***** Beginning stage bitstream generation ... *****
+Reading core interface constraints from 'C:/Users/user/Desktop/final project/outflow/obstacle_whicle.interface.csv'.
+Successfully processed interface constraints file "C:/Users/user/Desktop/final project/outflow/obstacle_whicle.interface.csv".
+Finished writing bitstream file C:/Users/user/Desktop/final project/work_pnr\obstacle_whicle.lbf.
+Bitstream generation took 0.13311 seconds.
+	Bitstream generation took 0.09375 seconds (approximately) in total CPU time.
+Bitstream generation virtual memory usage: begin = 138.2 MB, end = 151.868 MB, delta = 13.668 MB
+	Bitstream generation peak virtual memory usage = 168.336 MB
+Bitstream generation resident set memory usage: begin = 143.112 MB, end = 156.456 MB, delta = 13.344 MB
+	Bitstream generation peak resident set memory usage = 164.936 MB
+***** Ending stage bitstream generation *****
+The entire flow of EFX_PNR took 6.52127 seconds.
+	The entire flow of EFX_PNR took 5.70312 seconds (approximately) in total CPU time.
+The entire flow of EFX_PNR virtual memory usage: begin = 6.108 MB, end = 31.636 MB, delta = 25.528 MB
+	The entire flow of EFX_PNR peak virtual memory usage = 168.336 MB
+The entire flow of EFX_PNR resident set memory usage: begin = 11.56 MB, end = 38.2 MB, delta = 26.64 MB
+	The entire flow of EFX_PNR peak resident set memory usage = 164.936 MB

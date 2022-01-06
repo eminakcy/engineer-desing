@@ -1,0 +1,157 @@
+
+Efinity Interface Designer Report
+Version: 2021.1.165
+Date: 2022-01-05 17:11
+
+Copyright (C) 2017 - 2021 Efinix Inc. All rights reserved.
+
+Device: T8F81
+Project: obstacle_whicle
+
+Package: 81-ball FBGA (final)
+Timing Model: C2 (final)
+Configuration Mode: active (x1)
+
+---------- Table of Contents (begin) ----------
+   1. Periphery Usage Summary
+   2. Generated Output Files
+   3. I/O Banks Summary
+   4. Global Connection Summary
+   5. Clock Region Usage Summary
+   6. Dual-Function Configuration Pin Usage
+   7. GPIO Usage Summary
+   8. PLL Usage Summary
+   9. Oscillator Usage Summary
+   10. JTAG Usage Summary
+---------- Table of Contents (end) ------------
+
+---------- 1. Periphery Usage Summary (begin) ----------
+gpio: 10 / 55 (18.18%)
+jtag: 0 / 2 (0.0%)
+osc: 0 / 1 (0.0%)
+pll: 0 / 1 (0.0%)
+---------- Periphery Usage Summary (end) ----------
+
+---------- 2. Generated Output Files (begin) ----------
+Interface Configuration: obstacle_whicle.interface.csv
+Peripheral Block Configuration: obstacle_whicle.lpf
+Pinout Report: obstacle_whicle.pinout.rpt
+Pinout CSV: obstacle_whicle.pinout.csv
+Timing Report: obstacle_whicle.pt_timing.rpt
+Timing SDC Template: obstacle_whicle.pt.sdc
+Verilog Template: obstacle_whicle_template.v
+---------- Generated Output Files (end) ----------
+
+---------- 3. I/O Banks Summary (begin) ----------
+
++----------+-------------+
+| I/O Bank | I/O Voltage |
++----------+-------------+
+|    1A    |    3.3 V    |
+|    1B    |    3.3 V    |
+|    1C    |    1.1 V    |
+|    2A    |    3.3 V    |
+|    2B    |    3.3 V    |
++----------+-------------+
+
+---------- I/O Banks Summary (end) ----------
+
+---------- 4. Global Connection Summary (begin) ----------
+
++----------+----------+------+
+| Pin Name | Resource | Type |
++----------+----------+------+
++----------+----------+------+
+
+---------- Global Connection Summary (end) ----------
+
+---------- 5. Clock Region Usage Summary (begin) ----------
+
++--------------+----------------+
+| Clock Region | Used/Available |
++--------------+----------------+
+|      L0      |      0/4       |
+|      L1      |      0/4       |
+|      R0      |      0/4       |
+|      R1      |      0/4       |
++--------------+----------------+
+
+---------- Clock Region Usage Summary (end) ----------
+
+---------- 6. Dual-Function Configuration Pin Usage (begin) ----------
+
++---------------+----------+
+| Instance Name | Function |
++---------------+----------+
+|     led[0]    | NSTATUS  |
+|     led[1]    |  TEST_N  |
+|     led[2]    |  CBUS1   |
++---------------+----------+
+
+---------- Dual-Function Configuration Pin Usage (end) ----------
+
+---------- 7. GPIO Usage Summary (begin) ----------
+
+Global Unused Setting: input with weak pullup
+
++---------------+----------+--------+----------+--------------+----------+----------------------+----------------------+-------------+
+| Instance Name | Resource |  Mode  | Register | Clock Region | I/O Bank |     I/O Standard     |       Pad Name       | Package Pin |
++---------------+----------+--------+----------+--------------+----------+----------------------+----------------------+-------------+
+|    echo[0]    | GPIOR_00 | input  |          |              |    2A    | 3.3 V LVTTL / LVCMOS |       GPIOR_00       |      A5     |
+|    echo[1]    | GPIOR_03 | input  |          |              |    2A    | 3.3 V LVTTL / LVCMOS |       GPIOR_03       |      A6     |
+|    echo[2]    | GPIOR_06 | input  |          |              |    2A    | 3.3 V LVTTL / LVCMOS |       GPIOR_06       |      C6     |
+|    fpgaclk    | GPIOL_20 | input  |          |              |    1B    | 3.3 V LVTTL / LVCMOS |    GPIOL_20_PLLIN    |      C3     |
+|     led[0]    | GPIOL_21 | output |          |              |    1B    | 3.3 V LVTTL / LVCMOS |   GPIOL_21_NSTATUS   |      B3     |
+|     led[1]    | GPIOR_37 | output |          |              |    2B    | 3.3 V LVTTL / LVCMOS |   GPIOR_37_TEST_N    |      J6     |
+|     led[2]    | GPIOR_16 | output |          |              |    2A    | 3.3 V LVTTL / LVCMOS | GPIOR_16_CTRL7_CBUS1 |      D7     |
+|   trigger[0]  | GPIOR_01 | output |          |              |    2A    | 3.3 V LVTTL / LVCMOS |       GPIOR_01       |      B5     |
+|   trigger[1]  | GPIOR_05 | output |          |              |    2A    | 3.3 V LVTTL / LVCMOS |       GPIOR_05       |      B6     |
+|   trigger[2]  | GPIOR_07 | output |          |              |    2A    | 3.3 V LVTTL / LVCMOS |       GPIOR_07       |      C7     |
++---------------+----------+--------+----------+--------------+----------+----------------------+----------------------+-------------+
+
+
+Input GPIO Configuration:
+=========================
+
++---------------+-----------+---------------------+-----------------+--------------+-----------------+
+| Instance Name | Input Pin | Alternate Input Pin | Input Clock Pin | Pull Up/Down | Schmitt Trigger |
++---------------+-----------+---------------------+-----------------+--------------+-----------------+
+|    echo[0]    |  echo[0]  |                     |                 |     none     |     Disable     |
+|    echo[1]    |  echo[1]  |                     |                 |     none     |     Disable     |
+|    echo[2]    |  echo[2]  |                     |                 |     none     |     Disable     |
+|    fpgaclk    |  fpgaclk  |                     |                 |     none     |     Disable     |
++---------------+-----------+---------------------+-----------------+--------------+-----------------+
+
+Output GPIO Configuration:
+==========================
+
++---------------+------------+------------------+----------------+-----------+
+| Instance Name | Output Pin | Output Clock Pin | Drive Strength | Slew Rate |
++---------------+------------+------------------+----------------+-----------+
+|     led[0]    |   led[0]   |                  |       1        |  Disable  |
+|     led[1]    |   led[1]   |                  |       1        |  Disable  |
+|     led[2]    |   led[2]   |                  |       1        |  Disable  |
+|   trigger[0]  | trigger[0] |                  |       1        |  Disable  |
+|   trigger[1]  | trigger[1] |                  |       1        |  Disable  |
+|   trigger[2]  | trigger[2] |                  |       1        |  Disable  |
++---------------+------------+------------------+----------------+-----------+
+
+---------- GPIO Usage Summary (end) ----------
+
+---------- 8. PLL Usage Summary (begin) ----------
+
+No PLL was configured
+
+---------- PLL Usage Summary (end) ----------
+
+---------- 9. Oscillator Usage Summary (begin) ----------
+
+No Oscillator was configured
+
+---------- Oscillator Usage Summary (end) ----------
+
+---------- 10. JTAG Usage Summary (begin) ----------
+
+No JTAG was configured
+
+---------- JTAG Usage Summary (end) ----------
